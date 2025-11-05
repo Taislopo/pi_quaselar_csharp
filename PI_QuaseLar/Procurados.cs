@@ -41,5 +41,11 @@ namespace PI_QuaseLar
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            detalhes_procurados detalhes_procurados = new detalhes_procurados();
+            detalhes_procurados.Show();
+        }
     }
 }

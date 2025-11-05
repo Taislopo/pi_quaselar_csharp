@@ -35,22 +35,23 @@
             this.buttonMenu = new System.Windows.Forms.Button();
             this.buttonCasinha = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.comboBoxPorte = new System.Windows.Forms.ComboBox();
+            this.comboBoxSexo = new System.Windows.Forms.ComboBox();
+            this.comboBoxEspecie = new System.Windows.Forms.ComboBox();
+            this.comboBoxIdade = new System.Windows.Forms.ComboBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.labelRaca = new System.Windows.Forms.Label();
+            this.textBoxRaca = new System.Windows.Forms.TextBox();
             this.buttonEnviar = new System.Windows.Forms.Button();
             this.buttonCancelar = new System.Windows.Forms.Button();
-            this.textBoxConvivio = new System.Windows.Forms.TextBox();
-            this.textBoxTemper = new System.Windows.Forms.TextBox();
-            this.textBoxCastrado = new System.Windows.Forms.TextBox();
-            this.textBoxRaca = new System.Windows.Forms.TextBox();
+            this.textBoxUltima = new System.Windows.Forms.TextBox();
             this.textBoxIdade = new System.Windows.Forms.TextBox();
-            this.textBoxSexo = new System.Windows.Forms.TextBox();
             this.textBoxNome = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
             this.buttonImg = new System.Windows.Forms.Button();
             this.pictureBoxImg = new System.Windows.Forms.PictureBox();
             this.panel3.SuspendLayout();
@@ -63,7 +64,7 @@
             // 
             this.panel3.BackColor = System.Drawing.SystemColors.Highlight;
             this.panel3.Controls.Add(this.label7);
-            this.panel3.Location = new System.Drawing.Point(520, 92);
+            this.panel3.Location = new System.Drawing.Point(79, 0);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(186, 37);
             this.panel3.TabIndex = 18;
@@ -113,118 +114,164 @@
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.panel3);
+            this.panel1.Controls.Add(this.comboBoxPorte);
+            this.panel1.Controls.Add(this.comboBoxSexo);
+            this.panel1.Controls.Add(this.comboBoxEspecie);
+            this.panel1.Controls.Add(this.comboBoxIdade);
+            this.panel1.Controls.Add(this.label6);
+            this.panel1.Controls.Add(this.labelRaca);
+            this.panel1.Controls.Add(this.textBoxRaca);
             this.panel1.Controls.Add(this.buttonEnviar);
             this.panel1.Controls.Add(this.buttonCancelar);
-            this.panel1.Controls.Add(this.textBoxConvivio);
-            this.panel1.Controls.Add(this.textBoxTemper);
-            this.panel1.Controls.Add(this.textBoxCastrado);
-            this.panel1.Controls.Add(this.textBoxRaca);
+            this.panel1.Controls.Add(this.textBoxUltima);
             this.panel1.Controls.Add(this.textBoxIdade);
-            this.panel1.Controls.Add(this.textBoxSexo);
             this.panel1.Controls.Add(this.textBoxNome);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.label11);
-            this.panel1.Controls.Add(this.label10);
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.label5);
-            this.panel1.Controls.Add(this.label8);
             this.panel1.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.panel1.Location = new System.Drawing.Point(468, 92);
+            this.panel1.Location = new System.Drawing.Point(479, 92);
             this.panel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(302, 319);
+            this.panel1.Size = new System.Drawing.Size(340, 304);
             this.panel1.TabIndex = 16;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // comboBoxPorte
+            // 
+            this.comboBoxPorte.FormattingEnabled = true;
+            this.comboBoxPorte.Items.AddRange(new object[] {
+            "Pequeno",
+            "Medio",
+            "Grande"});
+            this.comboBoxPorte.Location = new System.Drawing.Point(51, 170);
+            this.comboBoxPorte.Name = "comboBoxPorte";
+            this.comboBoxPorte.Size = new System.Drawing.Size(76, 21);
+            this.comboBoxPorte.TabIndex = 35;
+            // 
+            // comboBoxSexo
+            // 
+            this.comboBoxSexo.FormattingEnabled = true;
+            this.comboBoxSexo.Items.AddRange(new object[] {
+            "Macho",
+            "Femêa"});
+            this.comboBoxSexo.Location = new System.Drawing.Point(205, 120);
+            this.comboBoxSexo.Name = "comboBoxSexo";
+            this.comboBoxSexo.Size = new System.Drawing.Size(60, 21);
+            this.comboBoxSexo.TabIndex = 33;
+            // 
+            // comboBoxEspecie
+            // 
+            this.comboBoxEspecie.FormattingEnabled = true;
+            this.comboBoxEspecie.Items.AddRange(new object[] {
+            "Gato",
+            "Cachorro",
+            "Roedor",
+            "Repteis",
+            "Coelho",
+            "Outro"});
+            this.comboBoxEspecie.Location = new System.Drawing.Point(49, 118);
+            this.comboBoxEspecie.Name = "comboBoxEspecie";
+            this.comboBoxEspecie.Size = new System.Drawing.Size(78, 21);
+            this.comboBoxEspecie.TabIndex = 32;
+            // 
+            // comboBoxIdade
+            // 
+            this.comboBoxIdade.FormattingEnabled = true;
+            this.comboBoxIdade.Items.AddRange(new object[] {
+            "Semanas",
+            "Meses",
+            "Anos"});
+            this.comboBoxIdade.Location = new System.Drawing.Point(204, 78);
+            this.comboBoxIdade.Name = "comboBoxIdade";
+            this.comboBoxIdade.Size = new System.Drawing.Size(53, 21);
+            this.comboBoxIdade.TabIndex = 19;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(51, 154);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(35, 13);
+            this.label6.TabIndex = 31;
+            this.label6.Text = "Porte:";
+            // 
+            // labelRaca
+            // 
+            this.labelRaca.AutoSize = true;
+            this.labelRaca.Location = new System.Drawing.Point(186, 151);
+            this.labelRaca.Name = "labelRaca";
+            this.labelRaca.Size = new System.Drawing.Size(36, 13);
+            this.labelRaca.TabIndex = 29;
+            this.labelRaca.Text = "Raça:";
+            // 
+            // textBoxRaca
+            // 
+            this.textBoxRaca.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxRaca.Location = new System.Drawing.Point(189, 168);
+            this.textBoxRaca.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBoxRaca.Name = "textBoxRaca";
+            this.textBoxRaca.Size = new System.Drawing.Size(101, 21);
+            this.textBoxRaca.TabIndex = 28;
             // 
             // buttonEnviar
             // 
             this.buttonEnviar.BackColor = System.Drawing.SystemColors.Highlight;
             this.buttonEnviar.ForeColor = System.Drawing.SystemColors.Window;
-            this.buttonEnviar.Location = new System.Drawing.Point(196, 271);
+            this.buttonEnviar.Location = new System.Drawing.Point(218, 275);
             this.buttonEnviar.Name = "buttonEnviar";
             this.buttonEnviar.Size = new System.Drawing.Size(75, 23);
             this.buttonEnviar.TabIndex = 27;
             this.buttonEnviar.Text = "Enviar";
             this.buttonEnviar.UseVisualStyleBackColor = false;
+            this.buttonEnviar.Click += new System.EventHandler(this.buttonEnviar_Click);
             // 
             // buttonCancelar
             // 
             this.buttonCancelar.BackColor = System.Drawing.SystemColors.Highlight;
             this.buttonCancelar.ForeColor = System.Drawing.SystemColors.Window;
-            this.buttonCancelar.Location = new System.Drawing.Point(30, 271);
+            this.buttonCancelar.Location = new System.Drawing.Point(52, 275);
             this.buttonCancelar.Name = "buttonCancelar";
             this.buttonCancelar.Size = new System.Drawing.Size(75, 23);
             this.buttonCancelar.TabIndex = 26;
             this.buttonCancelar.Text = "Cancelar";
             this.buttonCancelar.UseVisualStyleBackColor = false;
             // 
-            // textBoxConvivio
+            // textBoxUltima
             // 
-            this.textBoxConvivio.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxConvivio.Location = new System.Drawing.Point(31, 214);
-            this.textBoxConvivio.Name = "textBoxConvivio";
-            this.textBoxConvivio.Size = new System.Drawing.Size(241, 31);
-            this.textBoxConvivio.TabIndex = 25;
-            this.textBoxConvivio.TextChanged += new System.EventHandler(this.textBoxConvivio_TextChanged);
-            // 
-            // textBoxTemper
-            // 
-            this.textBoxTemper.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxTemper.Location = new System.Drawing.Point(30, 152);
-            this.textBoxTemper.Name = "textBoxTemper";
-            this.textBoxTemper.Size = new System.Drawing.Size(239, 29);
-            this.textBoxTemper.TabIndex = 23;
-            // 
-            // textBoxCastrado
-            // 
-            this.textBoxCastrado.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxCastrado.Location = new System.Drawing.Point(210, 104);
-            this.textBoxCastrado.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.textBoxCastrado.Name = "textBoxCastrado";
-            this.textBoxCastrado.Size = new System.Drawing.Size(59, 15);
-            this.textBoxCastrado.TabIndex = 21;
-            // 
-            // textBoxRaca
-            // 
-            this.textBoxRaca.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxRaca.Location = new System.Drawing.Point(74, 104);
-            this.textBoxRaca.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.textBoxRaca.Name = "textBoxRaca";
-            this.textBoxRaca.Size = new System.Drawing.Size(59, 15);
-            this.textBoxRaca.TabIndex = 19;
+            this.textBoxUltima.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxUltima.Location = new System.Drawing.Point(49, 221);
+            this.textBoxUltima.Name = "textBoxUltima";
+            this.textBoxUltima.Size = new System.Drawing.Size(241, 24);
+            this.textBoxUltima.TabIndex = 25;
+            this.textBoxUltima.TextChanged += new System.EventHandler(this.textBoxConvivio_TextChanged);
             // 
             // textBoxIdade
             // 
-            this.textBoxIdade.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxIdade.Location = new System.Drawing.Point(229, 69);
+            this.textBoxIdade.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxIdade.Location = new System.Drawing.Point(174, 78);
             this.textBoxIdade.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBoxIdade.Name = "textBoxIdade";
-            this.textBoxIdade.Size = new System.Drawing.Size(42, 15);
+            this.textBoxIdade.Size = new System.Drawing.Size(23, 21);
             this.textBoxIdade.TabIndex = 18;
-            // 
-            // textBoxSexo
-            // 
-            this.textBoxSexo.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxSexo.Location = new System.Drawing.Point(142, 69);
-            this.textBoxSexo.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.textBoxSexo.Name = "textBoxSexo";
-            this.textBoxSexo.Size = new System.Drawing.Size(42, 15);
-            this.textBoxSexo.TabIndex = 17;
+            this.textBoxIdade.TextChanged += new System.EventHandler(this.textBoxIdade_TextChanged);
             // 
             // textBoxNome
             // 
-            this.textBoxNome.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxNome.Location = new System.Drawing.Point(65, 67);
+            this.textBoxNome.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxNome.Location = new System.Drawing.Point(52, 72);
             this.textBoxNome.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBoxNome.Name = "textBoxNome";
-            this.textBoxNome.Size = new System.Drawing.Size(40, 17);
+            this.textBoxNome.Size = new System.Drawing.Size(59, 21);
             this.textBoxNome.TabIndex = 15;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(27, 71);
+            this.label1.Location = new System.Drawing.Point(49, 55);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(38, 13);
             this.label1.TabIndex = 2;
@@ -233,26 +280,17 @@
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(28, 198);
+            this.label11.Location = new System.Drawing.Point(51, 205);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(144, 13);
             this.label11.TabIndex = 13;
             this.label11.Text = "Ultima Informação do Animal:";
             this.label11.Click += new System.EventHandler(this.label11_Click);
             // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(27, 136);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(58, 13);
-            this.label10.TabIndex = 12;
-            this.label10.Text = "Descrição:";
-            // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(111, 71);
+            this.label3.Location = new System.Drawing.Point(215, 102);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(34, 13);
             this.label3.TabIndex = 4;
@@ -261,29 +299,21 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(193, 71);
+            this.label4.Location = new System.Drawing.Point(171, 60);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(37, 13);
             this.label4.TabIndex = 5;
             this.label4.Text = "Idade:";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(27, 106);
+            this.label5.Location = new System.Drawing.Point(49, 102);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(51, 13);
+            this.label5.Size = new System.Drawing.Size(48, 13);
             this.label5.TabIndex = 6;
-            this.label5.Text = "Pelagem:";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(160, 106);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(52, 13);
-            this.label8.TabIndex = 9;
-            this.label8.Text = "Castrado:";
+            this.label5.Text = "Especie:";
             // 
             // buttonImg
             // 
@@ -296,6 +326,7 @@
             this.buttonImg.TabIndex = 15;
             this.buttonImg.Text = "Inserir Imagem";
             this.buttonImg.UseVisualStyleBackColor = false;
+            this.buttonImg.Click += new System.EventHandler(this.buttonImg_Click);
             // 
             // pictureBoxImg
             // 
@@ -313,13 +344,13 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(949, 527);
-            this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.buttonImg);
             this.Controls.Add(this.pictureBoxImg);
             this.Name = "tela_procurados";
             this.Text = "tela_procurados";
+            this.Load += new System.EventHandler(this.tela_procurados_Load);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             this.panel2.ResumeLayout(false);
@@ -340,21 +371,22 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button buttonEnviar;
         private System.Windows.Forms.Button buttonCancelar;
-        private System.Windows.Forms.TextBox textBoxConvivio;
-        private System.Windows.Forms.TextBox textBoxTemper;
-        private System.Windows.Forms.TextBox textBoxCastrado;
-        private System.Windows.Forms.TextBox textBoxRaca;
+        private System.Windows.Forms.TextBox textBoxUltima;
         private System.Windows.Forms.TextBox textBoxIdade;
-        private System.Windows.Forms.TextBox textBoxSexo;
         private System.Windows.Forms.TextBox textBoxNome;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Button buttonImg;
         private System.Windows.Forms.PictureBox pictureBoxImg;
+        private System.Windows.Forms.Label labelRaca;
+        private System.Windows.Forms.TextBox textBoxRaca;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.ComboBox comboBoxEspecie;
+        private System.Windows.Forms.ComboBox comboBoxIdade;
+        private System.Windows.Forms.ComboBox comboBoxSexo;
+        private System.Windows.Forms.ComboBox comboBoxPorte;
     }
 }
