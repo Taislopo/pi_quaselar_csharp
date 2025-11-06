@@ -46,7 +46,7 @@ namespace PI_QuaseLar
             string telefone = maskedTextBoxTelefone.Text;
             string endereco = textBoxEndereco.Text;
             string CEP = maskedTextBoxCep.Text;
-            int CPF = int.Parse(maskedTextBoxCpf.Text);
+            int CPF = int.Parse(textBoxCPF.Text);
 
 
             if (nome == "" || email == "" || senha == "" || telefone == "" || endereco == "" || CEP == "" )
@@ -106,9 +106,13 @@ namespace PI_QuaseLar
                     maskedTextBoxTelefone.Clear();
                     textBoxEndereco.Clear();
                     maskedTextBoxCep.Clear();
-                    maskedTextBoxCpf.Clear();
+                    textBoxCPF.Clear();
+                    textBoxConfirmar.Clear();
+                    
+                    conexao.Close();
 
 
+                    Login login = new Login();
 
 
                 }
@@ -147,6 +151,11 @@ namespace PI_QuaseLar
         private void textBox2SenhaLogin_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

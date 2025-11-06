@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -18,7 +19,10 @@ namespace PI_QuaseLar
         {
             InitializeComponent();
         }
-
+        private void Procurados_Load(object sender, EventArgs e)
+        {
+          
+        }
         private void label2_Click(object sender, EventArgs e)
         {
 
@@ -50,9 +54,13 @@ namespace PI_QuaseLar
             detalhes_procurados.Show();
         }
 
-        private void Procurados_Load(object sender, EventArgs e)
+        private void buttonCasinha_Click(object sender, EventArgs e)
         {
+            Tela_Inicial tela_Inicial = new Tela_Inicial();
+            tela_Inicial.Show();
 
         }
+       
+        
     }
 }

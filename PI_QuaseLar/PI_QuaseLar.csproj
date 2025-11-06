@@ -104,12 +104,6 @@
     <Compile Include="Cadastro.Designer.cs">
       <DependentUpon>Cadastro.cs</DependentUpon>
     </Compile>
-    <Compile Include="Configuração.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Configuração.Designer.cs">
-      <DependentUpon>Configuração.cs</DependentUpon>
-    </Compile>
     <Compile Include="detalhes-adocao.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -154,6 +148,12 @@
     <Compile Include="tela-procurados.Designer.cs">
       <DependentUpon>tela-procurados.cs</DependentUpon>
     </Compile>
+    <Compile Include="TelaAdocao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaAdocao.Designer.cs">
+      <DependentUpon>TelaAdocao.cs</DependentUpon>
+    </Compile>
     <Compile Include="Tela_perfil.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -162,9 +162,6 @@
     </Compile>
     <EmbeddedResource Include="Cadastro.resx">
       <DependentUpon>Cadastro.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Configuração.resx">
-      <DependentUpon>Configuração.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="detalhes-adocao.resx">
       <DependentUpon>detalhes-adocao.cs</DependentUpon>
@@ -195,6 +192,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="tela-procurados.resx">
       <DependentUpon>tela-procurados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaAdocao.resx">
+      <DependentUpon>TelaAdocao.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Tela_perfil.resx">
       <DependentUpon>Tela_perfil.cs</DependentUpon>

@@ -1,13 +1,14 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using MySql.Data.MySqlClient;
 
 namespace PI_QuaseLar
 {
@@ -91,74 +92,35 @@ namespace PI_QuaseLar
             string motivo = textBoxMotivo.Text;
             string especie = comboBoxEspecie.Text;
 
-            if (nome == "" || raca == "" || idade_tipo == "" ||
-       porte == "" || sexo == "" || castrado == "" || vacinado == "" ||
-       motivo == "" || especie == "")
+            if (nome == "" || raca == "" || idade == 0 || idade_tipo == "" || porte == "" || sexo == "" || castrado == "" || vacinado == "" || motivo == "" || especie == "")
             {
                 MessageBox.Show("Preencha todos os campos antes de enviar!");
                 return;
             }
 
-   
-           
 
-            if (porte != "Pequeno" && porte != "Médio" && porte != "Grande")
-            {
-                MessageBox.Show("Selecione um porte válido (Pequeno, Médio ou Grande).");
-                return;
-            }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            string conn = "server=localhost;user=root;password=;database=db_quaselar";
+            string conn = "server=localhost;user=root;password=;database=db_quaselar_oficial";
 
             using (MySqlConnection conexao = new MySqlConnection(conn))
                 try
                 {
                     conexao.Open();
-                    string query = "INSERT INTO tb_adocao (nome_pet, raca, sexo, porte, castrado, idade_valor, idade_tipo, motivo_da_adocao, especie, vacinado) VALUES (@nome_pet, @raca, @sexo, @porte, @castrado, @idade_valor, @idade_tipo, @motivo_da_adocao, @especie, @vacinado)";
+                    string query = "INSERT INTO tb_adocao (nome_pet, raca, sexo, porte, castrado, idade, semanas_meses_anos, motivo_da_doacao, especie, vacinado) VALUES (@nome_pet, @raca, @sexo, @porte, @castrado, @idade, @semanas_meses_anos, @motivo_da_doacao, @especie, @vacinado)";
                     MySqlCommand cmd = new MySqlCommand(query, conexao);
                     cmd.Parameters.AddWithValue("@nome_pet", nome);
                     cmd.Parameters.AddWithValue("@raca", raca);
                     cmd.Parameters.AddWithValue("@sexo", sexo);
                     cmd.Parameters.AddWithValue("@porte", porte);
                     cmd.Parameters.AddWithValue("@castrado", castrado);
-                    cmd.Parameters.AddWithValue("@idade_valor", idade);
-                    cmd.Parameters.AddWithValue("@idade_tipo", idade_tipo);
-                    cmd.Parameters.AddWithValue("@motivo_da_adocao", motivo);
+                    cmd.Parameters.AddWithValue("@idade", idade);
+                    cmd.Parameters.AddWithValue("@semanas_meses_anos", idade_tipo);
+                    cmd.Parameters.AddWithValue("@motivo_da_doacao", motivo);
                     cmd.Parameters.AddWithValue("@especie", especie);
-                    cmd.Parameters.AddWithValue("@vacinado", vacinado); 
+                    cmd.Parameters.AddWithValue("@vacinado", vacinado);
                     cmd.ExecuteNonQuery();
-                     
+
                     MessageBox.Show("Doação cadastrada com sucesso!");
 
-
-                    textBoxNome.Clear();
-                    textBoxRaca.Clear();
-                    textBoxIdade.Clear();
-                    textBoxMotivo.Clear();
-                    comboBoxIdade.SelectedIndex = -1;
-                    comboBoxPorte.SelectedIndex = -1;
-                    comboBoxSexo.SelectedIndex = -1;
-                    comboBoxCastrado.SelectedIndex = -1;
-                    comboBoxVacinado.SelectedIndex = -1;
-                    comboBoxEspecie.SelectedIndex = -1;
 
 
                 }
@@ -168,7 +130,65 @@ namespace PI_QuaseLar
 
 
                 }
+
+
+
+            if (pictureBoxImg.Image == null)
+            {
+                MessageBox.Show("Escolha uma imagem primeiro.");
+                return;
+            }
+
+            string pasta = Path.Combine(Application.StartupPath, "uploads");
+            Directory.CreateDirectory(pasta);
+
+            string nomeArquivo = $"img_{DateTime.Now.Ticks}.png";
+            string caminho = Path.Combine(pasta, nomeArquivo);
+
+
+            pictureBoxImg.Image.Save(caminho, System.Drawing.Imaging.ImageFormat.Png);
+
+            using (var conexaoImg = new MySqlConnection(conn))
+            using (var cmd = new MySqlCommand("INSERT INTO tb_img_animal (nome_arquivo, localizacao) VALUES (@nome_arquivo, @localizacao)", conexaoImg))
+            {
+                cmd.Parameters.AddWithValue("@nome_arquivo", nomeArquivo);
+                cmd.Parameters.AddWithValue("@localizacao", caminho);
+
+                try
+                {
+                    conexaoImg.Open();
+                    cmd.ExecuteNonQuery();
+                    MessageBox.Show("Imagem salva na pasta e registrada no banco!");
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Erro ao salvar imagem: " + ex.Message);
+                }
+
+
+
+                textBoxNome.Clear();
+                textBoxRaca.Clear();
+                textBoxIdade.Clear();
+                textBoxMotivo.Clear();
+                pictureBoxImg.Image = null;
+                comboBoxIdade.SelectedIndex = -1;
+                comboBoxPorte.SelectedIndex = -1;
+                comboBoxSexo.SelectedIndex = -1;
+                comboBoxCastrado.SelectedIndex = -1;
+                comboBoxVacinado.SelectedIndex = -1;
+                comboBoxEspecie.SelectedIndex = -1;
+
+
+
+
+
+
+
+
+            }
         }
+        
 
         private void label9_Click(object sender, EventArgs e)
         {
@@ -233,6 +253,11 @@ namespace PI_QuaseLar
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void buttonCancelar_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

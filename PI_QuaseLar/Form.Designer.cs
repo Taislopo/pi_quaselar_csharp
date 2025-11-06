@@ -39,6 +39,12 @@
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.comboBoxVacinado = new System.Windows.Forms.ComboBox();
+            this.comboBoxCastrado = new System.Windows.Forms.ComboBox();
+            this.comboBoxPorte = new System.Windows.Forms.ComboBox();
+            this.comboBoxIdade = new System.Windows.Forms.ComboBox();
+            this.comboBoxEspecie = new System.Windows.Forms.ComboBox();
+            this.comboBoxSexo = new System.Windows.Forms.ComboBox();
             this.labelEspecie = new System.Windows.Forms.Label();
             this.buttonEnviar = new System.Windows.Forms.Button();
             this.buttonCancelar = new System.Windows.Forms.Button();
@@ -53,12 +59,6 @@
             this.buttonPerfil = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label7 = new System.Windows.Forms.Label();
-            this.comboBoxSexo = new System.Windows.Forms.ComboBox();
-            this.comboBoxEspecie = new System.Windows.Forms.ComboBox();
-            this.comboBoxIdade = new System.Windows.Forms.ComboBox();
-            this.comboBoxPorte = new System.Windows.Forms.ComboBox();
-            this.comboBoxCastrado = new System.Windows.Forms.ComboBox();
-            this.comboBoxVacinado = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxImg)).BeginInit();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -192,6 +192,78 @@
             this.panel1.TabIndex = 11;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
+            // comboBoxVacinado
+            // 
+            this.comboBoxVacinado.FormattingEnabled = true;
+            this.comboBoxVacinado.Items.AddRange(new object[] {
+            "SIm",
+            "Não"});
+            this.comboBoxVacinado.Location = new System.Drawing.Point(189, 234);
+            this.comboBoxVacinado.Name = "comboBoxVacinado";
+            this.comboBoxVacinado.Size = new System.Drawing.Size(48, 21);
+            this.comboBoxVacinado.TabIndex = 39;
+            // 
+            // comboBoxCastrado
+            // 
+            this.comboBoxCastrado.FormattingEnabled = true;
+            this.comboBoxCastrado.Items.AddRange(new object[] {
+            "SIm",
+            "Não"});
+            this.comboBoxCastrado.Location = new System.Drawing.Point(34, 234);
+            this.comboBoxCastrado.Name = "comboBoxCastrado";
+            this.comboBoxCastrado.Size = new System.Drawing.Size(44, 21);
+            this.comboBoxCastrado.TabIndex = 38;
+            // 
+            // comboBoxPorte
+            // 
+            this.comboBoxPorte.FormattingEnabled = true;
+            this.comboBoxPorte.Items.AddRange(new object[] {
+            "Pequeno",
+            "Medio",
+            "Grande"});
+            this.comboBoxPorte.Location = new System.Drawing.Point(189, 177);
+            this.comboBoxPorte.Name = "comboBoxPorte";
+            this.comboBoxPorte.Size = new System.Drawing.Size(60, 21);
+            this.comboBoxPorte.TabIndex = 37;
+            // 
+            // comboBoxIdade
+            // 
+            this.comboBoxIdade.FormattingEnabled = true;
+            this.comboBoxIdade.Items.AddRange(new object[] {
+            "Semanas",
+            "Meses",
+            "Anos"});
+            this.comboBoxIdade.Location = new System.Drawing.Point(226, 121);
+            this.comboBoxIdade.Name = "comboBoxIdade";
+            this.comboBoxIdade.Size = new System.Drawing.Size(45, 21);
+            this.comboBoxIdade.TabIndex = 36;
+            // 
+            // comboBoxEspecie
+            // 
+            this.comboBoxEspecie.FormattingEnabled = true;
+            this.comboBoxEspecie.Items.AddRange(new object[] {
+            "Gato",
+            "Cachorro",
+            "Roedor",
+            "Repteis",
+            "Coelho",
+            "Outro"});
+            this.comboBoxEspecie.Location = new System.Drawing.Point(112, 119);
+            this.comboBoxEspecie.Name = "comboBoxEspecie";
+            this.comboBoxEspecie.Size = new System.Drawing.Size(51, 21);
+            this.comboBoxEspecie.TabIndex = 35;
+            // 
+            // comboBoxSexo
+            // 
+            this.comboBoxSexo.FormattingEnabled = true;
+            this.comboBoxSexo.Items.AddRange(new object[] {
+            "Macho",
+            "Femêa"});
+            this.comboBoxSexo.Location = new System.Drawing.Point(34, 119);
+            this.comboBoxSexo.Name = "comboBoxSexo";
+            this.comboBoxSexo.Size = new System.Drawing.Size(44, 21);
+            this.comboBoxSexo.TabIndex = 34;
+            // 
             // labelEspecie
             // 
             this.labelEspecie.AutoSize = true;
@@ -225,6 +297,7 @@
             this.buttonCancelar.TabIndex = 26;
             this.buttonCancelar.Text = "Cancelar";
             this.buttonCancelar.UseVisualStyleBackColor = false;
+            this.buttonCancelar.Click += new System.EventHandler(this.buttonCancelar_Click);
             // 
             // textBoxMotivo
             // 
@@ -341,78 +414,6 @@
             this.label7.Size = new System.Drawing.Size(114, 13);
             this.label7.TabIndex = 0;
             this.label7.Text = "Cadastro para Doação";
-            // 
-            // comboBoxSexo
-            // 
-            this.comboBoxSexo.FormattingEnabled = true;
-            this.comboBoxSexo.Items.AddRange(new object[] {
-            "Macho",
-            "Femêa"});
-            this.comboBoxSexo.Location = new System.Drawing.Point(34, 119);
-            this.comboBoxSexo.Name = "comboBoxSexo";
-            this.comboBoxSexo.Size = new System.Drawing.Size(44, 21);
-            this.comboBoxSexo.TabIndex = 34;
-            // 
-            // comboBoxEspecie
-            // 
-            this.comboBoxEspecie.FormattingEnabled = true;
-            this.comboBoxEspecie.Items.AddRange(new object[] {
-            "Gato",
-            "Cachorro",
-            "Roedor",
-            "Repteis",
-            "Coelho",
-            "Outro"});
-            this.comboBoxEspecie.Location = new System.Drawing.Point(112, 119);
-            this.comboBoxEspecie.Name = "comboBoxEspecie";
-            this.comboBoxEspecie.Size = new System.Drawing.Size(51, 21);
-            this.comboBoxEspecie.TabIndex = 35;
-            // 
-            // comboBoxIdade
-            // 
-            this.comboBoxIdade.FormattingEnabled = true;
-            this.comboBoxIdade.Items.AddRange(new object[] {
-            "Semanas",
-            "Meses",
-            "Anos"});
-            this.comboBoxIdade.Location = new System.Drawing.Point(226, 121);
-            this.comboBoxIdade.Name = "comboBoxIdade";
-            this.comboBoxIdade.Size = new System.Drawing.Size(45, 21);
-            this.comboBoxIdade.TabIndex = 36;
-            // 
-            // comboBoxPorte
-            // 
-            this.comboBoxPorte.FormattingEnabled = true;
-            this.comboBoxPorte.Items.AddRange(new object[] {
-            "Pequeno",
-            "Medio",
-            "Grande"});
-            this.comboBoxPorte.Location = new System.Drawing.Point(189, 177);
-            this.comboBoxPorte.Name = "comboBoxPorte";
-            this.comboBoxPorte.Size = new System.Drawing.Size(60, 21);
-            this.comboBoxPorte.TabIndex = 37;
-            // 
-            // comboBoxCastrado
-            // 
-            this.comboBoxCastrado.FormattingEnabled = true;
-            this.comboBoxCastrado.Items.AddRange(new object[] {
-            "SIm",
-            "Não"});
-            this.comboBoxCastrado.Location = new System.Drawing.Point(34, 234);
-            this.comboBoxCastrado.Name = "comboBoxCastrado";
-            this.comboBoxCastrado.Size = new System.Drawing.Size(44, 21);
-            this.comboBoxCastrado.TabIndex = 38;
-            // 
-            // comboBoxVacinado
-            // 
-            this.comboBoxVacinado.FormattingEnabled = true;
-            this.comboBoxVacinado.Items.AddRange(new object[] {
-            "SIm",
-            "Não"});
-            this.comboBoxVacinado.Location = new System.Drawing.Point(189, 234);
-            this.comboBoxVacinado.Name = "comboBoxVacinado";
-            this.comboBoxVacinado.Size = new System.Drawing.Size(48, 21);
-            this.comboBoxVacinado.TabIndex = 39;
             // 
             // FormDoacao
             // 
