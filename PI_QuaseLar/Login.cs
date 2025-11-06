@@ -19,8 +19,7 @@ namespace PI_QuaseLar
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string Usuario = textBoxUsuario;
-            string Senha = textBoxSenhaLogin;
+       
         }
     }
 }

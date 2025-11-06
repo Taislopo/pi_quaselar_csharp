@@ -54,18 +54,18 @@ namespace PI_QuaseLar
             string sexo = comboBoxSexo.Text;
             string ultima = textBoxUltima.Text;
 
-            string conn = "server=localhost;user=root;password=;database=db_quaselar";
+            string conn = "server=localhost;user=root;password=;database=db_quaselar_oficial";
 
             using (MySqlConnection conexao = new MySqlConnection(conn))
                 try
                 {
                     conexao.Open();
-                    string query = "INSERT INTO tb_procurados (nome_p, raca_p, idade_tipo, idade_valor, porte_p,especie_p, sexo_p, ultima_vez_visto ) VALUES (@nome_p, @raca_p, @idade_tipo, @idade_valor, @porte_p, @especie_p, @sexo_p , @ultima_vez_visto)";
+                    string query = "INSERT INTO tb_procurados (nome_p, raca_p, idade_p,semanas_meses_anos_p, porte_p,especie_p, sexo_p, ultima_vez_visto ) VALUES (@nome_p, @raca_p, @idade_p, @semanas_meses_anos_p, @porte_p, @especie_p, @sexo_p , @ultima_vez_visto)";
                     MySqlCommand cmd = new MySqlCommand(query, conexao);
                     cmd.Parameters.AddWithValue("@nome_p", nome);
                     cmd.Parameters.AddWithValue("@raca_p", raca);
-                    cmd.Parameters.AddWithValue("@idade_tipo", idade_tipo);
-                    cmd.Parameters.AddWithValue("@idade_valor", idade);
+                    cmd.Parameters.AddWithValue("@semanas_meses_anos_p", idade_tipo);
+                    cmd.Parameters.AddWithValue("@idade_p", idade);
                     cmd.Parameters.AddWithValue("@porte_p", porte);
                     cmd.Parameters.AddWithValue("@sexo_p", sexo);
                     cmd.Parameters.AddWithValue("@especie_p", especie);
@@ -85,7 +85,6 @@ namespace PI_QuaseLar
                     comboBoxIdade.SelectedIndex = -1;
                     comboBoxPorte.SelectedIndex = -1;
                     comboBoxSexo.SelectedIndex = -1;
-                    comboBoxCastrado.SelectedIndex = -1;
                     comboBoxEspecie.SelectedIndex = -1;
 
 

@@ -16,7 +16,7 @@ namespace PI_QuaseLar
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormDoacao());
+            Application.Run(new Tela_Inicial());
 
         }
     }

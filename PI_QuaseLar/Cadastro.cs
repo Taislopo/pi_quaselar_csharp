@@ -48,7 +48,34 @@ namespace PI_QuaseLar
             string CEP = maskedTextBoxCep.Text;
             int CPF = int.Parse(maskedTextBoxCpf.Text);
 
-            string conn = "server=localhost;user=root;password=;database=db_quaselar";
+
+            if (nome == "" || email == "" || senha == "" || telefone == "" || endereco == "" || CEP == "" )
+            {
+                MessageBox.Show("Preencha todos os campos!");
+                return;
+            }
+
+
+            if (!email.Contains("@") || !email.Contains("."))
+            {
+                MessageBox.Show("Digite um e-mail válido!");
+                return;
+            }
+            string cepNumeros = CEP.Replace("-", "").Trim();
+            if (cepNumeros.Length != 8)
+            {
+                MessageBox.Show("CEP inválido! Deve ter 8 números.");
+                return;
+            }
+
+            string telNumeros = telefone.Replace("(", "").Replace(")", "").Replace("-", "").Trim();
+            if (telNumeros.Length < 10)
+            {
+                MessageBox.Show("Telefone inválido!");
+                return;
+            }
+
+            string conn = "server=localhost;user=root;password=;database=db_quaselar_oficial";
 
             using (MySqlConnection conexao = new MySqlConnection(conn))
 

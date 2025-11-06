@@ -91,6 +91,40 @@ namespace PI_QuaseLar
             string motivo = textBoxMotivo.Text;
             string especie = comboBoxEspecie.Text;
 
+            if (nome == "" || raca == "" || idade_tipo == "" ||
+       porte == "" || sexo == "" || castrado == "" || vacinado == "" ||
+       motivo == "" || especie == "")
+            {
+                MessageBox.Show("Preencha todos os campos antes de enviar!");
+                return;
+            }
+
+   
+           
+
+            if (porte != "Pequeno" && porte != "Médio" && porte != "Grande")
+            {
+                MessageBox.Show("Selecione um porte válido (Pequeno, Médio ou Grande).");
+                return;
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
             string conn = "server=localhost;user=root;password=;database=db_quaselar";
 

@@ -43,5 +43,22 @@ namespace PI_QuaseLar
             Login login = new Login();
             login.Show();
         }
+
+        private void buttonPerfil_Click_1(object sender, EventArgs e)
+        {
+            Tela_perfil tela_Perfil = new Tela_perfil();
+            tela_Perfil.Show();
+        }
+
+        private void buttonProcurase_Click(object sender, EventArgs e)
+        {
+            Procurados procurados = new Procurados();
+            procurados.Show();
+        }
+
+        private void buttonConfig_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
