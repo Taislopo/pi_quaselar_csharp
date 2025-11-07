@@ -51,7 +51,6 @@ C:\Users\tais.clopes\Downloads\Csharp_Desc-main (1)\Csharp_Desc-main\PI_QuaseLar
 C:\Users\tais.clopes\Downloads\Csharp_Desc-main (1)\Csharp_Desc-main\PI_QuaseLar\PI_QuaseLar\obj\Debug\PI_QuaseLar.Tela_perfil.resources
 C:\Users\User01\Documents\tais licções\validar_script\pi_quaselar_csharp\PI_QuaseLar\obj\Debug\PI_QuaseLar.csproj.AssemblyReference.cache
 C:\Users\User01\Documents\tais licções\validar_script\pi_quaselar_csharp\PI_QuaseLar\obj\Debug\PI_QuaseLar.Cadastro.resources
-C:\Users\User01\Documents\tais licções\validar_script\pi_quaselar_csharp\PI_QuaseLar\obj\Debug\PI_QuaseLar.Configuração.resources
 C:\Users\User01\Documents\tais licções\validar_script\pi_quaselar_csharp\PI_QuaseLar\obj\Debug\PI_QuaseLar.detalhes_adocao.resources
 C:\Users\User01\Documents\tais licções\validar_script\pi_quaselar_csharp\PI_QuaseLar\obj\Debug\PI_QuaseLar.detalhes_procurados.resources
 C:\Users\User01\Documents\tais licções\validar_script\pi_quaselar_csharp\PI_QuaseLar\obj\Debug\PI_QuaseLar.FormDoacao.resources
@@ -154,3 +153,4 @@ C:\Users\tais.clopes\source\pi\Csharp_Desc\PI_QuaseLar\pi_quaselar_csharp\PI_Qua
 C:\Users\tais.clopes\source\pi\Csharp_Desc\PI_QuaseLar\pi_quaselar_csharp\PI_QuaseLar\obj\Debug\PI_QuaseLar.exe
 C:\Users\tais.clopes\source\pi\Csharp_Desc\PI_QuaseLar\pi_quaselar_csharp\PI_QuaseLar\obj\Debug\PI_QuaseLar.pdb
 C:\Users\tais.clopes\source\pi\Csharp_Desc\PI_QuaseLar\pi_quaselar_csharp\PI_QuaseLar\obj\Debug\PI_QuaseLar.TelaAdocao.resources
+C:\Users\User01\Documents\tais licções\validar_script\pi_quaselar_csharp\PI_QuaseLar\obj\Debug\PI_QuaseLar.TelaAdocao.resources

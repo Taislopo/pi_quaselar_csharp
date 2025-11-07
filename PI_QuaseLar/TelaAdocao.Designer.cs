@@ -49,29 +49,33 @@
             this.panel3.Controls.Add(this.labelUltima);
             this.panel3.Controls.Add(this.label6);
             this.panel3.Controls.Add(this.labelNome);
-            this.panel3.Location = new System.Drawing.Point(56, 199);
+            this.panel3.Location = new System.Drawing.Point(75, 245);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(168, 74);
+            this.panel3.Size = new System.Drawing.Size(224, 91);
             this.panel3.TabIndex = 30;
             // 
             // buttonMais
             // 
             this.buttonMais.BackColor = System.Drawing.SystemColors.Highlight;
-            this.buttonMais.Location = new System.Drawing.Point(40, 13);
+            this.buttonMais.Location = new System.Drawing.Point(53, 16);
+            this.buttonMais.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonMais.Name = "buttonMais";
-            this.buttonMais.Size = new System.Drawing.Size(115, 31);
+            this.buttonMais.Size = new System.Drawing.Size(153, 38);
             this.buttonMais.TabIndex = 28;
             this.buttonMais.Text = "Mais Informações";
             this.buttonMais.UseVisualStyleBackColor = false;
+            this.buttonMais.Click += new System.EventHandler(this.buttonMais_Click);
             // 
             // labelUltima
             // 
             this.labelUltima.AutoSize = true;
             this.labelUltima.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelUltima.ForeColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.labelUltima.Location = new System.Drawing.Point(104, 47);
+            this.labelUltima.Location = new System.Drawing.Point(139, 58);
+            this.labelUltima.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelUltima.Name = "labelUltima";
-            this.labelUltima.Size = new System.Drawing.Size(61, 12);
+            this.labelUltima.Size = new System.Drawing.Size(79, 15);
             this.labelUltima.TabIndex = 30;
             this.labelUltima.Text = "2025/11/03";
             // 
@@ -80,9 +84,10 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.label6.Location = new System.Drawing.Point(4, 47);
+            this.label6.Location = new System.Drawing.Point(5, 58);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(99, 12);
+            this.label6.Size = new System.Drawing.Size(123, 15);
             this.label6.TabIndex = 29;
             this.label6.Text = "Ultima Atulização:";
             // 
@@ -91,9 +96,10 @@
             this.labelNome.AutoSize = true;
             this.labelNome.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelNome.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.labelNome.Location = new System.Drawing.Point(4, 16);
+            this.labelNome.Location = new System.Drawing.Point(5, 20);
+            this.labelNome.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelNome.Name = "labelNome";
-            this.labelNome.Size = new System.Drawing.Size(30, 16);
+            this.labelNome.Size = new System.Drawing.Size(37, 20);
             this.labelNome.TabIndex = 28;
             this.labelNome.Text = "Leo";
             // 
@@ -103,17 +109,19 @@
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label1);
             this.panel1.ForeColor = System.Drawing.SystemColors.Control;
-            this.panel1.Location = new System.Drawing.Point(56, 27);
+            this.panel1.Location = new System.Drawing.Point(75, 33);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(295, 56);
+            this.panel1.Size = new System.Drawing.Size(393, 69);
             this.panel1.TabIndex = 29;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(3, 36);
+            this.label2.Location = new System.Drawing.Point(4, 44);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(182, 13);
+            this.label2.Size = new System.Drawing.Size(225, 16);
             this.label2.TabIndex = 26;
             this.label2.Text = "Mude um destino: adote um pet hoje!";
             // 
@@ -121,9 +129,10 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(3, 12);
+            this.label1.Location = new System.Drawing.Point(4, 15);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(76, 24);
+            this.label1.Size = new System.Drawing.Size(95, 29);
             this.label1.TabIndex = 26;
             this.label1.Text = "Adoção";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -131,21 +140,23 @@
             // pictureBoxImg
             // 
             this.pictureBoxImg.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.pictureBoxImg.Location = new System.Drawing.Point(56, 118);
+            this.pictureBoxImg.Location = new System.Drawing.Point(75, 145);
+            this.pictureBoxImg.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBoxImg.Name = "pictureBoxImg";
-            this.pictureBoxImg.Size = new System.Drawing.Size(168, 113);
+            this.pictureBoxImg.Size = new System.Drawing.Size(224, 139);
             this.pictureBoxImg.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBoxImg.TabIndex = 28;
             this.pictureBoxImg.TabStop = false;
             // 
             // TelaAdocao
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.pictureBoxImg);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "TelaAdocao";
             this.Text = "TelaAdocao";
             this.Load += new System.EventHandler(this.TelaAdocao_Load);

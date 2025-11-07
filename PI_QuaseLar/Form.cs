@@ -41,7 +41,8 @@ namespace PI_QuaseLar
 
         private void button5_Click(object sender, EventArgs e)
         {
-
+            Tela_perfil tela_Perfil = new Tela_perfil();
+            tela_Perfil.Show();
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
@@ -158,7 +159,7 @@ namespace PI_QuaseLar
                 {
                     conexaoImg.Open();
                     cmd.ExecuteNonQuery();
-                    MessageBox.Show("Imagem salva na pasta e registrada no banco!");
+          
                 }
                 catch (Exception ex)
                 {
@@ -258,6 +259,13 @@ namespace PI_QuaseLar
         private void buttonCancelar_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void buttonCasinha_Click(object sender, EventArgs e)
+        {
+            Tela_Inicial tela_Inicial = new Tela_Inicial();
+            tela_Inicial.Show();
+
         }
     }
 }

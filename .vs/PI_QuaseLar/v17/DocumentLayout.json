@@ -1,70 +1,78 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\tais.clopes\\source\\pi\\Csharp_Desc\\PI_QuaseLar\\pi_quaselar_csharp\\",
+  "WorkspaceRootPath": "C:\\Users\\User01\\Documents\\tais lic\u00E7\u00F5es\\validar_script\\pi_quaselar_csharp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E4ACE713-FB06-4184-83D4-16C1F997961A}|PI_QuaseLar\\PI_QuaseLar.csproj|C:\\Users\\tais.clopes\\source\\pi\\Csharp_Desc\\PI_QuaseLar\\pi_quaselar_csharp\\pi_quaselar\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E4ACE713-FB06-4184-83D4-16C1F997961A}|PI_QuaseLar\\PI_QuaseLar.csproj|solutionrelative:pi_quaselar\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E4ACE713-FB06-4184-83D4-16C1F997961A}|PI_QuaseLar\\PI_QuaseLar.csproj|c:\\users\\tais.clopes\\source\\pi\\csharp_desc\\pi_quaselar\\pi_quaselar_csharp\\pi_quaselar\\telaadocao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E4ACE713-FB06-4184-83D4-16C1F997961A}|PI_QuaseLar\\PI_QuaseLar.csproj|solutionrelative:pi_quaselar\\telaadocao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E4ACE713-FB06-4184-83D4-16C1F997961A}|PI_QuaseLar\\PI_QuaseLar.csproj|c:\\users\\tais.clopes\\source\\pi\\csharp_desc\\pi_quaselar\\pi_quaselar_csharp\\pi_quaselar\\telaadocao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E4ACE713-FB06-4184-83D4-16C1F997961A}|PI_QuaseLar\\PI_QuaseLar.csproj|solutionrelative:pi_quaselar\\telaadocao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E4ACE713-FB06-4184-83D4-16C1F997961A}|PI_QuaseLar\\PI_QuaseLar.csproj|c:\\users\\tais.clopes\\source\\pi\\csharp_desc\\pi_quaselar\\pi_quaselar_csharp\\pi_quaselar\\procurados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E4ACE713-FB06-4184-83D4-16C1F997961A}|PI_QuaseLar\\PI_QuaseLar.csproj|solutionrelative:pi_quaselar\\procurados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E4ACE713-FB06-4184-83D4-16C1F997961A}|PI_QuaseLar\\PI_QuaseLar.csproj|c:\\users\\tais.clopes\\source\\pi\\csharp_desc\\pi_quaselar\\pi_quaselar_csharp\\pi_quaselar\\tela-inicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E4ACE713-FB06-4184-83D4-16C1F997961A}|PI_QuaseLar\\PI_QuaseLar.csproj|solutionrelative:pi_quaselar\\tela-inicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E4ACE713-FB06-4184-83D4-16C1F997961A}|PI_QuaseLar\\PI_QuaseLar.csproj|c:\\users\\tais.clopes\\source\\pi\\csharp_desc\\pi_quaselar\\pi_quaselar_csharp\\pi_quaselar\\tela_perfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E4ACE713-FB06-4184-83D4-16C1F997961A}|PI_QuaseLar\\PI_QuaseLar.csproj|solutionrelative:pi_quaselar\\tela_perfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E4ACE713-FB06-4184-83D4-16C1F997961A}|PI_QuaseLar\\PI_QuaseLar.csproj|c:\\users\\tais.clopes\\source\\pi\\csharp_desc\\pi_quaselar\\pi_quaselar_csharp\\pi_quaselar\\form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E4ACE713-FB06-4184-83D4-16C1F997961A}|PI_QuaseLar\\PI_QuaseLar.csproj|solutionrelative:pi_quaselar\\form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E4ACE713-FB06-4184-83D4-16C1F997961A}|PI_QuaseLar\\PI_QuaseLar.csproj|c:\\users\\tais.clopes\\source\\pi\\csharp_desc\\pi_quaselar\\pi_quaselar_csharp\\pi_quaselar\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E4ACE713-FB06-4184-83D4-16C1F997961A}|PI_QuaseLar\\PI_QuaseLar.csproj|solutionrelative:pi_quaselar\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E4ACE713-FB06-4184-83D4-16C1F997961A}|PI_QuaseLar\\PI_QuaseLar.csproj|C:\\Users\\tais.clopes\\source\\pi\\Csharp_Desc\\PI_QuaseLar\\pi_quaselar_csharp\\pi_quaselar\\detalhes-adocao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E4ACE713-FB06-4184-83D4-16C1F997961A}|PI_QuaseLar\\PI_QuaseLar.csproj|solutionrelative:pi_quaselar\\detalhes-adocao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E4ACE713-FB06-4184-83D4-16C1F997961A}|PI_QuaseLar\\PI_QuaseLar.csproj|C:\\Users\\tais.clopes\\source\\pi\\Csharp_Desc\\PI_QuaseLar\\pi_quaselar_csharp\\pi_quaselar\\detalhes-procurados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E4ACE713-FB06-4184-83D4-16C1F997961A}|PI_QuaseLar\\PI_QuaseLar.csproj|solutionrelative:pi_quaselar\\detalhes-procurados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E4ACE713-FB06-4184-83D4-16C1F997961A}|PI_QuaseLar\\PI_QuaseLar.csproj|c:\\users\\tais.clopes\\source\\pi\\csharp_desc\\pi_quaselar\\pi_quaselar_csharp\\pi_quaselar\\cadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E4ACE713-FB06-4184-83D4-16C1F997961A}|PI_QuaseLar\\PI_QuaseLar.csproj|solutionrelative:pi_quaselar\\cadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E4ACE713-FB06-4184-83D4-16C1F997961A}|PI_QuaseLar\\PI_QuaseLar.csproj|c:\\users\\tais.clopes\\source\\pi\\csharp_desc\\pi_quaselar\\pi_quaselar_csharp\\pi_quaselar\\tela-procurados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E4ACE713-FB06-4184-83D4-16C1F997961A}|PI_QuaseLar\\PI_QuaseLar.csproj|solutionrelative:pi_quaselar\\tela-procurados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E4ACE713-FB06-4184-83D4-16C1F997961A}|PI_QuaseLar\\PI_QuaseLar.csproj|c:\\users\\tais.clopes\\source\\pi\\csharp_desc\\pi_quaselar\\pi_quaselar_csharp\\pi_quaselar\\detalhes-adocao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E4ACE713-FB06-4184-83D4-16C1F997961A}|PI_QuaseLar\\PI_QuaseLar.csproj|solutionrelative:pi_quaselar\\detalhes-adocao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E4ACE713-FB06-4184-83D4-16C1F997961A}|PI_QuaseLar\\PI_QuaseLar.csproj|c:\\users\\tais.clopes\\source\\pi\\csharp_desc\\pi_quaselar\\pi_quaselar_csharp\\pi_quaselar\\tela-procurados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E4ACE713-FB06-4184-83D4-16C1F997961A}|PI_QuaseLar\\PI_QuaseLar.csproj|C:\\Users\\User01\\Documents\\tais lic\u00E7\u00F5es\\validar_script\\pi_quaselar_csharp\\pi_quaselar\\tela-procurados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E4ACE713-FB06-4184-83D4-16C1F997961A}|PI_QuaseLar\\PI_QuaseLar.csproj|solutionrelative:pi_quaselar\\tela-procurados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E4ACE713-FB06-4184-83D4-16C1F997961A}|PI_QuaseLar\\PI_QuaseLar.csproj|c:\\users\\tais.clopes\\source\\pi\\csharp_desc\\pi_quaselar\\pi_quaselar_csharp\\pi_quaselar\\procurados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E4ACE713-FB06-4184-83D4-16C1F997961A}|PI_QuaseLar\\PI_QuaseLar.csproj|C:\\Users\\User01\\Documents\\tais lic\u00E7\u00F5es\\validar_script\\pi_quaselar_csharp\\pi_quaselar\\tela_perfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4ACE713-FB06-4184-83D4-16C1F997961A}|PI_QuaseLar\\PI_QuaseLar.csproj|solutionrelative:pi_quaselar\\tela_perfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4ACE713-FB06-4184-83D4-16C1F997961A}|PI_QuaseLar\\PI_QuaseLar.csproj|C:\\Users\\User01\\Documents\\tais lic\u00E7\u00F5es\\validar_script\\pi_quaselar_csharp\\pi_quaselar\\tela-procurados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E4ACE713-FB06-4184-83D4-16C1F997961A}|PI_QuaseLar\\PI_QuaseLar.csproj|solutionrelative:pi_quaselar\\tela-procurados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4ACE713-FB06-4184-83D4-16C1F997961A}|PI_QuaseLar\\PI_QuaseLar.csproj|c:\\users\\user01\\documents\\tais lic\u00E7\u00F5es\\validar_script\\pi_quaselar_csharp\\pi_quaselar\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4ACE713-FB06-4184-83D4-16C1F997961A}|PI_QuaseLar\\PI_QuaseLar.csproj|solutionrelative:pi_quaselar\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4ACE713-FB06-4184-83D4-16C1F997961A}|PI_QuaseLar\\PI_QuaseLar.csproj|C:\\Users\\User01\\Documents\\tais lic\u00E7\u00F5es\\validar_script\\pi_quaselar_csharp\\pi_quaselar\\procurados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E4ACE713-FB06-4184-83D4-16C1F997961A}|PI_QuaseLar\\PI_QuaseLar.csproj|solutionrelative:pi_quaselar\\procurados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4ACE713-FB06-4184-83D4-16C1F997961A}|PI_QuaseLar\\PI_QuaseLar.csproj|C:\\Users\\User01\\Documents\\tais lic\u00E7\u00F5es\\validar_script\\pi_quaselar_csharp\\pi_quaselar\\tela_perfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E4ACE713-FB06-4184-83D4-16C1F997961A}|PI_QuaseLar\\PI_QuaseLar.csproj|solutionrelative:pi_quaselar\\tela_perfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4ACE713-FB06-4184-83D4-16C1F997961A}|PI_QuaseLar\\PI_QuaseLar.csproj|C:\\Users\\User01\\Documents\\tais lic\u00E7\u00F5es\\validar_script\\pi_quaselar_csharp\\pi_quaselar\\telaadocao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E4ACE713-FB06-4184-83D4-16C1F997961A}|PI_QuaseLar\\PI_QuaseLar.csproj|solutionrelative:pi_quaselar\\telaadocao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4ACE713-FB06-4184-83D4-16C1F997961A}|PI_QuaseLar\\PI_QuaseLar.csproj|C:\\Users\\User01\\Documents\\tais lic\u00E7\u00F5es\\validar_script\\pi_quaselar_csharp\\pi_quaselar\\telaadocao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4ACE713-FB06-4184-83D4-16C1F997961A}|PI_QuaseLar\\PI_QuaseLar.csproj|solutionrelative:pi_quaselar\\telaadocao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4ACE713-FB06-4184-83D4-16C1F997961A}|PI_QuaseLar\\PI_QuaseLar.csproj|c:\\users\\user01\\documents\\tais lic\u00E7\u00F5es\\validar_script\\pi_quaselar_csharp\\pi_quaselar\\tela-inicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4ACE713-FB06-4184-83D4-16C1F997961A}|PI_QuaseLar\\PI_QuaseLar.csproj|solutionrelative:pi_quaselar\\tela-inicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4ACE713-FB06-4184-83D4-16C1F997961A}|PI_QuaseLar\\PI_QuaseLar.csproj|c:\\users\\user01\\documents\\tais lic\u00E7\u00F5es\\validar_script\\pi_quaselar_csharp\\pi_quaselar\\form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4ACE713-FB06-4184-83D4-16C1F997961A}|PI_QuaseLar\\PI_QuaseLar.csproj|solutionrelative:pi_quaselar\\form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4ACE713-FB06-4184-83D4-16C1F997961A}|PI_QuaseLar\\PI_QuaseLar.csproj|C:\\Users\\User01\\Documents\\tais lic\u00E7\u00F5es\\validar_script\\pi_quaselar_csharp\\pi_quaselar\\form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E4ACE713-FB06-4184-83D4-16C1F997961A}|PI_QuaseLar\\PI_QuaseLar.csproj|solutionrelative:pi_quaselar\\form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4ACE713-FB06-4184-83D4-16C1F997961A}|PI_QuaseLar\\PI_QuaseLar.csproj|C:\\Users\\User01\\Documents\\tais lic\u00E7\u00F5es\\validar_script\\pi_quaselar_csharp\\pi_quaselar\\procurados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E4ACE713-FB06-4184-83D4-16C1F997961A}|PI_QuaseLar\\PI_QuaseLar.csproj|solutionrelative:pi_quaselar\\procurados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E4ACE713-FB06-4184-83D4-16C1F997961A}|PI_QuaseLar\\PI_QuaseLar.csproj|c:\\users\\tais.clopes\\source\\pi\\csharp_desc\\pi_quaselar\\pi_quaselar_csharp\\pi_quaselar\\tela_perfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E4ACE713-FB06-4184-83D4-16C1F997961A}|PI_QuaseLar\\PI_QuaseLar.csproj|solutionrelative:pi_quaselar\\tela_perfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E4ACE713-FB06-4184-83D4-16C1F997961A}|PI_QuaseLar\\PI_QuaseLar.csproj|C:\\Users\\User01\\Documents\\tais lic\u00E7\u00F5es\\validar_script\\pi_quaselar_csharp\\pi_quaselar\\tela-inicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E4ACE713-FB06-4184-83D4-16C1F997961A}|PI_QuaseLar\\PI_QuaseLar.csproj|solutionrelative:pi_quaselar\\tela-inicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4ACE713-FB06-4184-83D4-16C1F997961A}|PI_QuaseLar\\PI_QuaseLar.csproj|C:\\Users\\User01\\Documents\\tais lic\u00E7\u00F5es\\validar_script\\pi_quaselar_csharp\\pi_quaselar\\detalhes-adocao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4ACE713-FB06-4184-83D4-16C1F997961A}|PI_QuaseLar\\PI_QuaseLar.csproj|solutionrelative:pi_quaselar\\detalhes-adocao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4ACE713-FB06-4184-83D4-16C1F997961A}|PI_QuaseLar\\PI_QuaseLar.csproj|C:\\Users\\User01\\Documents\\tais lic\u00E7\u00F5es\\validar_script\\pi_quaselar_csharp\\pi_quaselar\\detalhes-adocao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E4ACE713-FB06-4184-83D4-16C1F997961A}|PI_QuaseLar\\PI_QuaseLar.csproj|solutionrelative:pi_quaselar\\detalhes-adocao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4ACE713-FB06-4184-83D4-16C1F997961A}|PI_QuaseLar\\PI_QuaseLar.csproj|C:\\Users\\User01\\Documents\\tais lic\u00E7\u00F5es\\validar_script\\pi_quaselar_csharp\\pi_quaselar\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E4ACE713-FB06-4184-83D4-16C1F997961A}|PI_QuaseLar\\PI_QuaseLar.csproj|solutionrelative:pi_quaselar\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4ACE713-FB06-4184-83D4-16C1F997961A}|PI_QuaseLar\\PI_QuaseLar.csproj|C:\\Users\\User01\\Documents\\tais lic\u00E7\u00F5es\\validar_script\\pi_quaselar_csharp\\pi_quaselar\\detalhes-procurados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E4ACE713-FB06-4184-83D4-16C1F997961A}|PI_QuaseLar\\PI_QuaseLar.csproj|solutionrelative:pi_quaselar\\detalhes-procurados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4ACE713-FB06-4184-83D4-16C1F997961A}|PI_QuaseLar\\PI_QuaseLar.csproj|C:\\Users\\User01\\Documents\\tais lic\u00E7\u00F5es\\validar_script\\pi_quaselar_csharp\\pi_quaselar\\cadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E4ACE713-FB06-4184-83D4-16C1F997961A}|PI_QuaseLar\\PI_QuaseLar.csproj|solutionrelative:pi_quaselar\\cadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,33 +82,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\tais.clopes\\source\\pi\\Csharp_Desc\\PI_QuaseLar\\pi_quaselar_csharp\\PI_QuaseLar\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\User01\\Documents\\tais lic\u00E7\u00F5es\\validar_script\\pi_quaselar_csharp\\PI_QuaseLar\\Program.cs",
               "RelativeDocumentMoniker": "PI_QuaseLar\\Program.cs",
-              "ToolTip": "C:\\Users\\tais.clopes\\source\\pi\\Csharp_Desc\\PI_QuaseLar\\pi_quaselar_csharp\\PI_QuaseLar\\Program.cs",
+              "ToolTip": "C:\\Users\\User01\\Documents\\tais lic\u00E7\u00F5es\\validar_script\\pi_quaselar_csharp\\PI_QuaseLar\\Program.cs",
               "RelativeToolTip": "PI_QuaseLar\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-06T02:35:57.478Z",
               "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TelaAdocao.cs",
-              "DocumentMoniker": "C:\\Users\\tais.clopes\\source\\pi\\Csharp_Desc\\PI_QuaseLar\\pi_quaselar_csharp\\PI_QuaseLar\\TelaAdocao.cs",
-              "RelativeDocumentMoniker": "PI_QuaseLar\\TelaAdocao.cs",
-              "ToolTip": "C:\\Users\\tais.clopes\\source\\pi\\Csharp_Desc\\PI_QuaseLar\\pi_quaselar_csharp\\PI_QuaseLar\\TelaAdocao.cs",
-              "RelativeToolTip": "PI_QuaseLar\\TelaAdocao.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T14:42:07.946Z",
               "EditorCaption": ""
             },
             {
@@ -113,35 +108,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Form.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\tais.clopes\\source\\pi\\Csharp_Desc\\PI_QuaseLar\\pi_quaselar_csharp\\PI_QuaseLar\\Form.cs",
-              "RelativeDocumentMoniker": "PI_QuaseLar\\Form.cs",
-              "ToolTip": "C:\\Users\\tais.clopes\\source\\pi\\Csharp_Desc\\PI_QuaseLar\\pi_quaselar_csharp\\PI_QuaseLar\\Form.cs [Design]",
-              "RelativeToolTip": "PI_QuaseLar\\Form.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T14:38:31.79Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Tela-Inicial.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\tais.clopes\\source\\pi\\Csharp_Desc\\PI_QuaseLar\\pi_quaselar_csharp\\PI_QuaseLar\\Tela-Inicial.cs",
-              "RelativeDocumentMoniker": "PI_QuaseLar\\Tela-Inicial.cs",
-              "ToolTip": "C:\\Users\\tais.clopes\\source\\pi\\Csharp_Desc\\PI_QuaseLar\\pi_quaselar_csharp\\PI_QuaseLar\\Tela-Inicial.cs [Design]",
-              "RelativeToolTip": "PI_QuaseLar\\Tela-Inicial.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T14:38:26.259Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "Procurados.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\tais.clopes\\source\\pi\\Csharp_Desc\\PI_QuaseLar\\pi_quaselar_csharp\\PI_QuaseLar\\Procurados.cs",
+              "DocumentMoniker": "C:\\Users\\User01\\Documents\\tais lic\u00E7\u00F5es\\validar_script\\pi_quaselar_csharp\\PI_QuaseLar\\Procurados.cs",
               "RelativeDocumentMoniker": "PI_QuaseLar\\Procurados.cs",
-              "ToolTip": "C:\\Users\\tais.clopes\\source\\pi\\Csharp_Desc\\PI_QuaseLar\\pi_quaselar_csharp\\PI_QuaseLar\\Procurados.cs [Design]",
+              "ToolTip": "C:\\Users\\User01\\Documents\\tais lic\u00E7\u00F5es\\validar_script\\pi_quaselar_csharp\\PI_QuaseLar\\Procurados.cs [Design]",
               "RelativeToolTip": "PI_QuaseLar\\Procurados.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-06T14:10:30.733Z",
@@ -149,83 +120,50 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Tela_perfil.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\tais.clopes\\source\\pi\\Csharp_Desc\\PI_QuaseLar\\pi_quaselar_csharp\\PI_QuaseLar\\Tela_perfil.cs",
+              "DocumentIndex": 1,
+              "Title": "Tela_perfil.cs",
+              "DocumentMoniker": "C:\\Users\\User01\\Documents\\tais lic\u00E7\u00F5es\\validar_script\\pi_quaselar_csharp\\PI_QuaseLar\\Tela_perfil.cs",
               "RelativeDocumentMoniker": "PI_QuaseLar\\Tela_perfil.cs",
-              "ToolTip": "C:\\Users\\tais.clopes\\source\\pi\\Csharp_Desc\\PI_QuaseLar\\pi_quaselar_csharp\\PI_QuaseLar\\Tela_perfil.cs [Design]",
-              "RelativeToolTip": "PI_QuaseLar\\Tela_perfil.cs [Design]",
+              "ToolTip": "C:\\Users\\User01\\Documents\\tais lic\u00E7\u00F5es\\validar_script\\pi_quaselar_csharp\\PI_QuaseLar\\Tela_perfil.cs",
+              "RelativeToolTip": "PI_QuaseLar\\Tela_perfil.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAUwFQAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T13:51:24.818Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TelaAdocao.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\tais.clopes\\source\\pi\\Csharp_Desc\\PI_QuaseLar\\pi_quaselar_csharp\\PI_QuaseLar\\TelaAdocao.cs",
-              "RelativeDocumentMoniker": "PI_QuaseLar\\TelaAdocao.cs",
-              "ToolTip": "C:\\Users\\tais.clopes\\source\\pi\\Csharp_Desc\\PI_QuaseLar\\pi_quaselar_csharp\\PI_QuaseLar\\TelaAdocao.cs [Design]",
-              "RelativeToolTip": "PI_QuaseLar\\TelaAdocao.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T14:33:06.136Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-11-06T13:52:53.681Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Login.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\tais.clopes\\source\\pi\\Csharp_Desc\\PI_QuaseLar\\pi_quaselar_csharp\\PI_QuaseLar\\Login.cs",
-              "RelativeDocumentMoniker": "PI_QuaseLar\\Login.cs",
-              "ToolTip": "C:\\Users\\tais.clopes\\source\\pi\\Csharp_Desc\\PI_QuaseLar\\pi_quaselar_csharp\\PI_QuaseLar\\Login.cs [Design]",
-              "RelativeToolTip": "PI_QuaseLar\\Login.cs [Design]",
+              "Title": "TelaAdocao.cs",
+              "DocumentMoniker": "C:\\Users\\User01\\Documents\\tais lic\u00E7\u00F5es\\validar_script\\pi_quaselar_csharp\\PI_QuaseLar\\TelaAdocao.cs",
+              "RelativeDocumentMoniker": "PI_QuaseLar\\TelaAdocao.cs",
+              "ToolTip": "C:\\Users\\User01\\Documents\\tais lic\u00E7\u00F5es\\validar_script\\pi_quaselar_csharp\\PI_QuaseLar\\TelaAdocao.cs",
+              "RelativeToolTip": "PI_QuaseLar\\TelaAdocao.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T14:38:37.556Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-11-06T14:42:07.946Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "detalhes-procurados.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\tais.clopes\\source\\pi\\Csharp_Desc\\PI_QuaseLar\\pi_quaselar_csharp\\PI_QuaseLar\\detalhes-procurados.cs",
-              "RelativeDocumentMoniker": "PI_QuaseLar\\detalhes-procurados.cs",
-              "ToolTip": "C:\\Users\\tais.clopes\\source\\pi\\Csharp_Desc\\PI_QuaseLar\\pi_quaselar_csharp\\PI_QuaseLar\\detalhes-procurados.cs [Design]",
-              "RelativeToolTip": "PI_QuaseLar\\detalhes-procurados.cs [Design]",
+              "Title": "Form.cs",
+              "DocumentMoniker": "C:\\Users\\User01\\Documents\\tais lic\u00E7\u00F5es\\validar_script\\pi_quaselar_csharp\\PI_QuaseLar\\Form.cs",
+              "RelativeDocumentMoniker": "PI_QuaseLar\\Form.cs",
+              "ToolTip": "C:\\Users\\User01\\Documents\\tais lic\u00E7\u00F5es\\validar_script\\pi_quaselar_csharp\\PI_QuaseLar\\Form.cs",
+              "RelativeToolTip": "PI_QuaseLar\\Form.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAEwGYAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T12:00:08.874Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-11-07T03:41:48.92Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Cadastro.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\tais.clopes\\source\\pi\\Csharp_Desc\\PI_QuaseLar\\pi_quaselar_csharp\\PI_QuaseLar\\Cadastro.cs",
-              "RelativeDocumentMoniker": "PI_QuaseLar\\Cadastro.cs",
-              "ToolTip": "C:\\Users\\tais.clopes\\source\\pi\\Csharp_Desc\\PI_QuaseLar\\pi_quaselar_csharp\\PI_QuaseLar\\Cadastro.cs [Design]",
-              "RelativeToolTip": "PI_QuaseLar\\Cadastro.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T14:38:33.952Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "detalhes-adocao.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\tais.clopes\\source\\pi\\Csharp_Desc\\PI_QuaseLar\\pi_quaselar_csharp\\PI_QuaseLar\\detalhes-adocao.cs",
-              "RelativeDocumentMoniker": "PI_QuaseLar\\detalhes-adocao.cs",
-              "ToolTip": "C:\\Users\\tais.clopes\\source\\pi\\Csharp_Desc\\PI_QuaseLar\\pi_quaselar_csharp\\PI_QuaseLar\\detalhes-adocao.cs [Design]",
-              "RelativeToolTip": "PI_QuaseLar\\detalhes-adocao.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T12:00:08.271Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 2,
               "Title": "tela-procurados.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\tais.clopes\\source\\pi\\Csharp_Desc\\PI_QuaseLar\\pi_quaselar_csharp\\PI_QuaseLar\\tela-procurados.cs",
+              "DocumentMoniker": "C:\\Users\\User01\\Documents\\tais lic\u00E7\u00F5es\\validar_script\\pi_quaselar_csharp\\PI_QuaseLar\\tela-procurados.cs",
               "RelativeDocumentMoniker": "PI_QuaseLar\\tela-procurados.cs",
-              "ToolTip": "C:\\Users\\tais.clopes\\source\\pi\\Csharp_Desc\\PI_QuaseLar\\pi_quaselar_csharp\\PI_QuaseLar\\tela-procurados.cs [Design]",
+              "ToolTip": "C:\\Users\\User01\\Documents\\tais lic\u00E7\u00F5es\\validar_script\\pi_quaselar_csharp\\PI_QuaseLar\\tela-procurados.cs [Design]",
               "RelativeToolTip": "PI_QuaseLar\\tela-procurados.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-06T14:13:35.395Z",
@@ -233,55 +171,148 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "detalhes-adocao.cs",
-              "DocumentMoniker": "C:\\Users\\tais.clopes\\source\\pi\\Csharp_Desc\\PI_QuaseLar\\pi_quaselar_csharp\\PI_QuaseLar\\detalhes-adocao.cs",
-              "RelativeDocumentMoniker": "PI_QuaseLar\\detalhes-adocao.cs",
-              "ToolTip": "C:\\Users\\tais.clopes\\source\\pi\\Csharp_Desc\\PI_QuaseLar\\pi_quaselar_csharp\\PI_QuaseLar\\detalhes-adocao.cs",
-              "RelativeToolTip": "PI_QuaseLar\\detalhes-adocao.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T14:35:44.823Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 0,
               "Title": "tela-procurados.cs",
-              "DocumentMoniker": "C:\\Users\\tais.clopes\\source\\pi\\Csharp_Desc\\PI_QuaseLar\\pi_quaselar_csharp\\PI_QuaseLar\\tela-procurados.cs",
+              "DocumentMoniker": "C:\\Users\\User01\\Documents\\tais lic\u00E7\u00F5es\\validar_script\\pi_quaselar_csharp\\PI_QuaseLar\\tela-procurados.cs",
               "RelativeDocumentMoniker": "PI_QuaseLar\\tela-procurados.cs",
-              "ToolTip": "C:\\Users\\tais.clopes\\source\\pi\\Csharp_Desc\\PI_QuaseLar\\pi_quaselar_csharp\\PI_QuaseLar\\tela-procurados.cs",
+              "ToolTip": "C:\\Users\\User01\\Documents\\tais lic\u00E7\u00F5es\\validar_script\\pi_quaselar_csharp\\PI_QuaseLar\\tela-procurados.cs",
               "RelativeToolTip": "PI_QuaseLar\\tela-procurados.cs",
-              "ViewState": "AgIAAFkAAAAAAAAAAAAEwDkAAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-06T14:13:36.655Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 6,
+              "Title": "TelaAdocao.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User01\\Documents\\tais lic\u00E7\u00F5es\\validar_script\\pi_quaselar_csharp\\PI_QuaseLar\\TelaAdocao.cs",
+              "RelativeDocumentMoniker": "PI_QuaseLar\\TelaAdocao.cs",
+              "ToolTip": "C:\\Users\\User01\\Documents\\tais lic\u00E7\u00F5es\\validar_script\\pi_quaselar_csharp\\PI_QuaseLar\\TelaAdocao.cs [Design]",
+              "RelativeToolTip": "PI_QuaseLar\\TelaAdocao.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T14:33:06.136Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Tela_perfil.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User01\\Documents\\tais lic\u00E7\u00F5es\\validar_script\\pi_quaselar_csharp\\PI_QuaseLar\\Tela_perfil.cs",
+              "RelativeDocumentMoniker": "PI_QuaseLar\\Tela_perfil.cs",
+              "ToolTip": "C:\\Users\\User01\\Documents\\tais lic\u00E7\u00F5es\\validar_script\\pi_quaselar_csharp\\PI_QuaseLar\\Tela_perfil.cs [Design]",
+              "RelativeToolTip": "PI_QuaseLar\\Tela_perfil.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T13:51:24.818Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Tela-Inicial.cs",
+              "DocumentMoniker": "C:\\Users\\User01\\Documents\\tais lic\u00E7\u00F5es\\validar_script\\pi_quaselar_csharp\\PI_QuaseLar\\Tela-Inicial.cs",
+              "RelativeDocumentMoniker": "PI_QuaseLar\\Tela-Inicial.cs",
+              "ToolTip": "C:\\Users\\User01\\Documents\\tais lic\u00E7\u00F5es\\validar_script\\pi_quaselar_csharp\\PI_QuaseLar\\Tela-Inicial.cs",
+              "RelativeToolTip": "PI_QuaseLar\\Tela-Inicial.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAASwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T03:43:45.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Form.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User01\\Documents\\tais lic\u00E7\u00F5es\\validar_script\\pi_quaselar_csharp\\PI_QuaseLar\\Form.cs",
+              "RelativeDocumentMoniker": "PI_QuaseLar\\Form.cs",
+              "ToolTip": "C:\\Users\\User01\\Documents\\tais lic\u00E7\u00F5es\\validar_script\\pi_quaselar_csharp\\PI_QuaseLar\\Form.cs [Design]",
+              "RelativeToolTip": "PI_QuaseLar\\Form.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T14:38:31.79Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "Procurados.cs",
-              "DocumentMoniker": "C:\\Users\\tais.clopes\\source\\pi\\Csharp_Desc\\PI_QuaseLar\\pi_quaselar_csharp\\PI_QuaseLar\\Procurados.cs",
+              "DocumentMoniker": "C:\\Users\\User01\\Documents\\tais lic\u00E7\u00F5es\\validar_script\\pi_quaselar_csharp\\PI_QuaseLar\\Procurados.cs",
               "RelativeDocumentMoniker": "PI_QuaseLar\\Procurados.cs",
-              "ToolTip": "C:\\Users\\tais.clopes\\source\\pi\\Csharp_Desc\\PI_QuaseLar\\pi_quaselar_csharp\\PI_QuaseLar\\Procurados.cs",
+              "ToolTip": "C:\\Users\\User01\\Documents\\tais lic\u00E7\u00F5es\\validar_script\\pi_quaselar_csharp\\PI_QuaseLar\\Procurados.cs",
               "RelativeToolTip": "PI_QuaseLar\\Procurados.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAIwBcAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAACkAAAAAAAAAAAAvwDoAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-06T14:11:35.728Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Tela_perfil.cs",
-              "DocumentMoniker": "C:\\Users\\tais.clopes\\source\\pi\\Csharp_Desc\\PI_QuaseLar\\pi_quaselar_csharp\\PI_QuaseLar\\Tela_perfil.cs",
-              "RelativeDocumentMoniker": "PI_QuaseLar\\Tela_perfil.cs",
-              "ToolTip": "C:\\Users\\tais.clopes\\source\\pi\\Csharp_Desc\\PI_QuaseLar\\pi_quaselar_csharp\\PI_QuaseLar\\Tela_perfil.cs",
-              "RelativeToolTip": "PI_QuaseLar\\Tela_perfil.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAIAwwDUAAAAZAAAAAAAAAA==",
+              "DocumentIndex": 13,
+              "Title": "detalhes-adocao.cs",
+              "DocumentMoniker": "C:\\Users\\User01\\Documents\\tais lic\u00E7\u00F5es\\validar_script\\pi_quaselar_csharp\\PI_QuaseLar\\detalhes-adocao.cs",
+              "RelativeDocumentMoniker": "PI_QuaseLar\\detalhes-adocao.cs",
+              "ToolTip": "C:\\Users\\User01\\Documents\\tais lic\u00E7\u00F5es\\validar_script\\pi_quaselar_csharp\\PI_QuaseLar\\detalhes-adocao.cs",
+              "RelativeToolTip": "PI_QuaseLar\\detalhes-adocao.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAowBYAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T13:52:53.681Z",
+              "WhenOpened": "2025-11-06T14:35:44.823Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "detalhes-adocao.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User01\\Documents\\tais lic\u00E7\u00F5es\\validar_script\\pi_quaselar_csharp\\PI_QuaseLar\\detalhes-adocao.cs",
+              "RelativeDocumentMoniker": "PI_QuaseLar\\detalhes-adocao.cs",
+              "ToolTip": "C:\\Users\\User01\\Documents\\tais lic\u00E7\u00F5es\\validar_script\\pi_quaselar_csharp\\PI_QuaseLar\\detalhes-adocao.cs [Design]",
+              "RelativeToolTip": "PI_QuaseLar\\detalhes-adocao.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T12:00:08.271Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Tela-Inicial.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User01\\Documents\\tais lic\u00E7\u00F5es\\validar_script\\pi_quaselar_csharp\\PI_QuaseLar\\Tela-Inicial.cs",
+              "RelativeDocumentMoniker": "PI_QuaseLar\\Tela-Inicial.cs",
+              "ToolTip": "C:\\Users\\User01\\Documents\\tais lic\u00E7\u00F5es\\validar_script\\pi_quaselar_csharp\\PI_QuaseLar\\Tela-Inicial.cs [Design]",
+              "RelativeToolTip": "PI_QuaseLar\\Tela-Inicial.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T14:38:26.259Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User01\\Documents\\tais lic\u00E7\u00F5es\\validar_script\\pi_quaselar_csharp\\PI_QuaseLar\\Login.cs",
+              "RelativeDocumentMoniker": "PI_QuaseLar\\Login.cs",
+              "ToolTip": "C:\\Users\\tais.clopes\\source\\pi\\Csharp_Desc\\PI_QuaseLar\\pi_quaselar_csharp\\PI_QuaseLar\\Login.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\tais.clopes\\source\\pi\\Csharp_Desc\\PI_QuaseLar\\pi_quaselar_csharp\\PI_QuaseLar\\Login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T14:38:37.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "detalhes-procurados.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User01\\Documents\\tais lic\u00E7\u00F5es\\validar_script\\pi_quaselar_csharp\\PI_QuaseLar\\detalhes-procurados.cs",
+              "RelativeDocumentMoniker": "PI_QuaseLar\\detalhes-procurados.cs",
+              "ToolTip": "C:\\Users\\tais.clopes\\source\\pi\\Csharp_Desc\\PI_QuaseLar\\pi_quaselar_csharp\\PI_QuaseLar\\detalhes-procurados.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\tais.clopes\\source\\pi\\Csharp_Desc\\PI_QuaseLar\\pi_quaselar_csharp\\PI_QuaseLar\\detalhes-procurados.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T12:00:08.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Cadastro.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User01\\Documents\\tais lic\u00E7\u00F5es\\validar_script\\pi_quaselar_csharp\\PI_QuaseLar\\Cadastro.cs",
+              "RelativeDocumentMoniker": "PI_QuaseLar\\Cadastro.cs",
+              "ToolTip": "C:\\Users\\tais.clopes\\source\\pi\\Csharp_Desc\\PI_QuaseLar\\pi_quaselar_csharp\\PI_QuaseLar\\Cadastro.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\tais.clopes\\source\\pi\\Csharp_Desc\\PI_QuaseLar\\pi_quaselar_csharp\\PI_QuaseLar\\Cadastro.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T14:38:33.952Z"
             }
           ]
         }

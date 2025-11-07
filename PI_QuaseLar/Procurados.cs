@@ -60,7 +60,11 @@ namespace PI_QuaseLar
             tela_Inicial.Show();
 
         }
-       
-        
+
+        private void buttonPerfil_Click(object sender, EventArgs e)
+        {
+            Tela_perfil tela_Perfil = new Tela_perfil();
+            tela_Perfil.Show();
+        }
     }
 }
