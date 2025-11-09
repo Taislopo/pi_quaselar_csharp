@@ -35,9 +35,9 @@
             this.labelCastrado = new System.Windows.Forms.Label();
             this.labelRaca = new System.Windows.Forms.Label();
             this.labelPorte = new System.Windows.Forms.Label();
+            this.labelSexo = new System.Windows.Forms.Label();
             this.labelVacinado = new System.Windows.Forms.Label();
             this.labelEspecie = new System.Windows.Forms.Label();
-            this.labelSexo = new System.Windows.Forms.Label();
             this.labelIdade = new System.Windows.Forms.Label();
             this.labelNome = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
@@ -128,7 +128,7 @@
             this.labelRaca.BackColor = System.Drawing.SystemColors.ControlLight;
             this.labelRaca.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelRaca.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.labelRaca.Location = new System.Drawing.Point(67, 111);
+            this.labelRaca.Location = new System.Drawing.Point(76, 111);
             this.labelRaca.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelRaca.Name = "labelRaca";
             this.labelRaca.Size = new System.Drawing.Size(44, 18);
@@ -141,12 +141,26 @@
             this.labelPorte.BackColor = System.Drawing.SystemColors.ControlLight;
             this.labelPorte.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelPorte.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.labelPorte.Location = new System.Drawing.Point(334, 73);
+            this.labelPorte.Location = new System.Drawing.Point(349, 73);
             this.labelPorte.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelPorte.Name = "labelPorte";
             this.labelPorte.Size = new System.Drawing.Size(44, 18);
             this.labelPorte.TabIndex = 31;
             this.labelPorte.Text = "texto ";
+            // 
+            // labelSexo
+            // 
+            this.labelSexo.AutoSize = true;
+            this.labelSexo.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.labelSexo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelSexo.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.labelSexo.Location = new System.Drawing.Point(349, 28);
+            this.labelSexo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelSexo.Name = "labelSexo";
+            this.labelSexo.Size = new System.Drawing.Size(44, 18);
+            this.labelSexo.TabIndex = 28;
+            this.labelSexo.Text = "texto ";
+            this.labelSexo.Click += new System.EventHandler(this.labelSexo_Click);
             // 
             // labelVacinado
             // 
@@ -154,7 +168,7 @@
             this.labelVacinado.BackColor = System.Drawing.SystemColors.ControlLight;
             this.labelVacinado.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelVacinado.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.labelVacinado.Location = new System.Drawing.Point(222, 73);
+            this.labelVacinado.Location = new System.Drawing.Point(230, 73);
             this.labelVacinado.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelVacinado.Name = "labelVacinado";
             this.labelVacinado.Size = new System.Drawing.Size(44, 18);
@@ -167,25 +181,12 @@
             this.labelEspecie.BackColor = System.Drawing.SystemColors.ControlLight;
             this.labelEspecie.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelEspecie.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.labelEspecie.Location = new System.Drawing.Point(88, 73);
+            this.labelEspecie.Location = new System.Drawing.Point(96, 73);
             this.labelEspecie.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelEspecie.Name = "labelEspecie";
             this.labelEspecie.Size = new System.Drawing.Size(44, 18);
             this.labelEspecie.TabIndex = 29;
             this.labelEspecie.Text = "texto ";
-            // 
-            // labelSexo
-            // 
-            this.labelSexo.AutoSize = true;
-            this.labelSexo.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.labelSexo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelSexo.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.labelSexo.Location = new System.Drawing.Point(334, 28);
-            this.labelSexo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.labelSexo.Name = "labelSexo";
-            this.labelSexo.Size = new System.Drawing.Size(44, 18);
-            this.labelSexo.TabIndex = 28;
-            this.labelSexo.Text = "texto ";
             // 
             // labelIdade
             // 
@@ -193,7 +194,7 @@
             this.labelIdade.BackColor = System.Drawing.SystemColors.ControlLight;
             this.labelIdade.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelIdade.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.labelIdade.Location = new System.Drawing.Point(204, 28);
+            this.labelIdade.Location = new System.Drawing.Point(213, 28);
             this.labelIdade.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelIdade.Name = "labelIdade";
             this.labelIdade.Size = new System.Drawing.Size(44, 18);
@@ -206,7 +207,7 @@
             this.labelNome.BackColor = System.Drawing.SystemColors.ControlLight;
             this.labelNome.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelNome.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.labelNome.Location = new System.Drawing.Point(77, 28);
+            this.labelNome.Location = new System.Drawing.Point(82, 28);
             this.labelNome.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelNome.Name = "labelNome";
             this.labelNome.Size = new System.Drawing.Size(44, 18);
