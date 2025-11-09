@@ -41,5 +41,16 @@ namespace PI_QuaseLar
         {
 
         }
+
+        private void detalhes_procurados_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonCasinha_Click(object sender, EventArgs e)
+        {
+            Tela_Inicial Tela_Inicial = new Tela_Inicial();
+            Tela_Inicial.Show();
+        }
     }
 }

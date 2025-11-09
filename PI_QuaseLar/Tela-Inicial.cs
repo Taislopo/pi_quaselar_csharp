@@ -46,14 +46,12 @@ namespace PI_QuaseLar
 
         private void buttonPerfil_Click_1(object sender, EventArgs e)
         {
-            Tela_perfil tela_Perfil = new Tela_perfil();
-            tela_Perfil.Show();
+          
         }
 
         private void buttonProcurase_Click(object sender, EventArgs e)
         {
-            Procurados procurados = new Procurados();
-            procurados.Show();
+       
         }
 
         private void buttonConfig_Click(object sender, EventArgs e)
@@ -63,8 +61,19 @@ namespace PI_QuaseLar
 
         private void button1_Click(object sender, EventArgs e)
         {
-            TelaAdocao telaAdocao = new TelaAdocao();
-            telaAdocao.Show();
+  
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            ListaAnimais listaAnimais = new ListaAnimais();
+            listaAnimais.Show();
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            ListaAnimaisProcurados listaAnimaisProcurados = new ListaAnimaisProcurados();
+            listaAnimaisProcurados.Show();
         }
     }
 }

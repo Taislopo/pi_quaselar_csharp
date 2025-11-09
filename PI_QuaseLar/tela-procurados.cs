@@ -183,6 +183,11 @@ namespace PI_QuaseLar
         {
             this.Close();
         }
+
+        private void pictureBoxImg_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 

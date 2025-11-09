@@ -41,8 +41,7 @@ namespace PI_QuaseLar
 
         private void button5_Click(object sender, EventArgs e)
         {
-            Tela_perfil tela_Perfil = new Tela_perfil();
-            tela_Perfil.Show();
+        
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
@@ -101,6 +100,7 @@ namespace PI_QuaseLar
 
 
             string conn = "server=localhost;user=root;password=;database=db_quaselar_oficial";
+            long idPet = 0;
 
             using (MySqlConnection conexao = new MySqlConnection(conn))
                 try
@@ -119,8 +119,10 @@ namespace PI_QuaseLar
                     cmd.Parameters.AddWithValue("@especie", especie);
                     cmd.Parameters.AddWithValue("@vacinado", vacinado);
                     cmd.ExecuteNonQuery();
+                     idPet = cmd.LastInsertedId;
 
                     MessageBox.Show("Doação cadastrada com sucesso!");
+                    this.Close();
 
 
 
@@ -150,8 +152,9 @@ namespace PI_QuaseLar
             pictureBoxImg.Image.Save(caminho, System.Drawing.Imaging.ImageFormat.Png);
 
             using (var conexaoImg = new MySqlConnection(conn))
-            using (var cmd = new MySqlCommand("INSERT INTO tb_img_animal (nome_arquivo, localizacao) VALUES (@nome_arquivo, @localizacao)", conexaoImg))
+            using (var cmd = new MySqlCommand("INSERT INTO tb_img_animal (id_adocao,nome_arquivo, localizacao) VALUES (@id_adocao,@nome_arquivo, @localizacao)", conexaoImg))
             {
+                cmd.Parameters.AddWithValue("@id_adocao", idPet);
                 cmd.Parameters.AddWithValue("@nome_arquivo", nomeArquivo);
                 cmd.Parameters.AddWithValue("@localizacao", caminho);
 

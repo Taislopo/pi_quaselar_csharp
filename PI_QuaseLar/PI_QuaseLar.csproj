@@ -116,23 +116,35 @@
     <Compile Include="detalhes-procurados.Designer.cs">
       <DependentUpon>detalhes-procurados.cs</DependentUpon>
     </Compile>
+    <Compile Include="EditarAnimaisDoacao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditarAnimaisDoacao.Designer.cs">
+      <DependentUpon>EditarAnimaisDoacao.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form.Designer.cs">
       <DependentUpon>Form.cs</DependentUpon>
     </Compile>
+    <Compile Include="ListaAnimais.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListaAnimais.Designer.cs">
+      <DependentUpon>ListaAnimais.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListaAnimaisProcurados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListaAnimaisProcurados.Designer.cs">
+      <DependentUpon>ListaAnimaisProcurados.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Procurados.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Procurados.Designer.cs">
-      <DependentUpon>Procurados.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -148,18 +160,6 @@
     <Compile Include="tela-procurados.Designer.cs">
       <DependentUpon>tela-procurados.cs</DependentUpon>
     </Compile>
-    <Compile Include="TelaAdocao.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="TelaAdocao.Designer.cs">
-      <DependentUpon>TelaAdocao.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Tela_perfil.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Tela_perfil.Designer.cs">
-      <DependentUpon>Tela_perfil.cs</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="Cadastro.resx">
       <DependentUpon>Cadastro.cs</DependentUpon>
     </EmbeddedResource>
@@ -169,14 +169,20 @@
     <EmbeddedResource Include="detalhes-procurados.resx">
       <DependentUpon>detalhes-procurados.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="EditarAnimaisDoacao.resx">
+      <DependentUpon>EditarAnimaisDoacao.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form.resx">
       <DependentUpon>Form.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ListaAnimais.resx">
+      <DependentUpon>ListaAnimais.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListaAnimaisProcurados.resx">
+      <DependentUpon>ListaAnimaisProcurados.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Procurados.resx">
-      <DependentUpon>Procurados.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -192,12 +198,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="tela-procurados.resx">
       <DependentUpon>tela-procurados.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="TelaAdocao.resx">
-      <DependentUpon>TelaAdocao.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Tela_perfil.resx">
-      <DependentUpon>Tela_perfil.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

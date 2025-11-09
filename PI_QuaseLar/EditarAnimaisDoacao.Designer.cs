@@ -1,16 +1,16 @@
 ﻿namespace PI_QuaseLar
 {
-    partial class FormDoacao
+    partial class EditarAnimaisDoacao
     {
         /// <summary>
-        /// Variável de designer necessária.
+        /// Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
         /// <summary>
-        /// Limpar os recursos que estão sendo usados.
+        /// Clean up any resources being used.
         /// </summary>
-        /// <param name="disposing">true se for necessário descartar os recursos gerenciados; caso contrário, false.</param>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -20,24 +20,19 @@
             base.Dispose(disposing);
         }
 
-        #region Código gerado pelo Windows Form Designer
+        #region Windows Form Designer generated code
 
         /// <summary>
-        /// Método necessário para suporte ao Designer - não modifique 
-        /// o conteúdo deste método com o editor de código.
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormDoacao));
-            this.pictureBoxImg = new System.Windows.Forms.PictureBox();
-            this.buttonImg = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(EditarAnimaisDoacao));
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.label7 = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.buttonCasinha = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.comboBoxVacinado = new System.Windows.Forms.ComboBox();
             this.comboBoxCastrado = new System.Windows.Forms.ComboBox();
@@ -53,118 +48,60 @@
             this.textBoxIdade = new System.Windows.Forms.TextBox();
             this.textBoxNome = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.buttonCasinha = new System.Windows.Forms.Button();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.label7 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxImg)).BeginInit();
-            this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             this.panel3.SuspendLayout();
+            this.panel2.SuspendLayout();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // pictureBoxImg
+            // panel3
             // 
-            this.pictureBoxImg.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxImg.Image")));
-            this.pictureBoxImg.Location = new System.Drawing.Point(211, 132);
-            this.pictureBoxImg.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.pictureBoxImg.Name = "pictureBoxImg";
-            this.pictureBoxImg.Size = new System.Drawing.Size(307, 318);
-            this.pictureBoxImg.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBoxImg.TabIndex = 0;
-            this.pictureBoxImg.TabStop = false;
-            this.pictureBoxImg.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.panel3.BackColor = System.Drawing.SystemColors.Highlight;
+            this.panel3.Controls.Add(this.label7);
+            this.panel3.Location = new System.Drawing.Point(213, 70);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(248, 46);
+            this.panel3.TabIndex = 18;
             // 
-            // buttonImg
+            // label7
             // 
-            this.buttonImg.BackColor = System.Drawing.SystemColors.Highlight;
-            this.buttonImg.ForeColor = System.Drawing.SystemColors.Control;
-            this.buttonImg.Location = new System.Drawing.Point(211, 489);
-            this.buttonImg.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.buttonImg.Name = "buttonImg";
-            this.buttonImg.Size = new System.Drawing.Size(291, 53);
-            this.buttonImg.TabIndex = 1;
-            this.buttonImg.Text = "Inserir Imagem";
-            this.buttonImg.UseVisualStyleBackColor = false;
-            this.buttonImg.Click += new System.EventHandler(this.buttonImg_Click);
+            this.label7.AutoSize = true;
+            this.label7.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label7.Location = new System.Drawing.Point(52, 14);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(135, 16);
+            this.label7.TabIndex = 0;
+            this.label7.Text = "Atualizar Informações";
             // 
-            // label1
+            // panel2
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(36, 81);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(122, 18);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "Nome do Animal:";
+            this.panel2.BackColor = System.Drawing.SystemColors.Highlight;
+            this.panel2.Controls.Add(this.buttonCasinha);
+            this.panel2.Location = new System.Drawing.Point(586, 13);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(46, 46);
+            this.panel2.TabIndex = 17;
             // 
-            // label3
+            // buttonCasinha
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(41, 124);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(46, 18);
-            this.label3.TabIndex = 4;
-            this.label3.Text = "Sexo:";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(259, 124);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(47, 18);
-            this.label4.TabIndex = 5;
-            this.label4.Text = "Idade:";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(41, 192);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(47, 18);
-            this.label5.TabIndex = 6;
-            this.label5.Text = "Raça:";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(257, 192);
-            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(48, 18);
-            this.label6.TabIndex = 7;
-            this.label6.Text = "Porte:";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(41, 266);
-            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(73, 18);
-            this.label8.TabIndex = 9;
-            this.label8.Text = "Castrado:";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(248, 266);
-            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(73, 18);
-            this.label9.TabIndex = 10;
-            this.label9.Text = "Vacinado:";
-            this.label9.Click += new System.EventHandler(this.label9_Click);
+            this.buttonCasinha.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.buttonCasinha.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buttonCasinha.BackgroundImage")));
+            this.buttonCasinha.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.buttonCasinha.Location = new System.Drawing.Point(0, -1);
+            this.buttonCasinha.Margin = new System.Windows.Forms.Padding(4);
+            this.buttonCasinha.Name = "buttonCasinha";
+            this.buttonCasinha.Size = new System.Drawing.Size(48, 47);
+            this.buttonCasinha.TabIndex = 13;
+            this.buttonCasinha.UseVisualStyleBackColor = false;
             // 
             // panel1
             // 
@@ -190,12 +127,11 @@
             this.panel1.Controls.Add(this.label8);
             this.panel1.Controls.Add(this.label6);
             this.panel1.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.panel1.Location = new System.Drawing.Point(649, 100);
+            this.panel1.Location = new System.Drawing.Point(149, 70);
             this.panel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(396, 458);
-            this.panel1.TabIndex = 11;
-            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            this.panel1.TabIndex = 16;
             // 
             // comboBoxVacinado
             // 
@@ -285,7 +221,6 @@
             this.labelEspecie.Size = new System.Drawing.Size(65, 18);
             this.labelEspecie.TabIndex = 28;
             this.labelEspecie.Text = "Especie:";
-            this.labelEspecie.Click += new System.EventHandler(this.label2_Click);
             // 
             // buttonEnviar
             // 
@@ -296,7 +231,7 @@
             this.buttonEnviar.Name = "buttonEnviar";
             this.buttonEnviar.Size = new System.Drawing.Size(100, 28);
             this.buttonEnviar.TabIndex = 27;
-            this.buttonEnviar.Text = "Enviar";
+            this.buttonEnviar.Text = "Atualizar";
             this.buttonEnviar.UseVisualStyleBackColor = false;
             this.buttonEnviar.Click += new System.EventHandler(this.buttonEnviar_Click);
             // 
@@ -311,7 +246,6 @@
             this.buttonCancelar.TabIndex = 26;
             this.buttonCancelar.Text = "Cancelar";
             this.buttonCancelar.UseVisualStyleBackColor = false;
-            this.buttonCancelar.Click += new System.EventHandler(this.buttonCancelar_Click);
             // 
             // textBoxMotivo
             // 
@@ -321,7 +255,6 @@
             this.textBoxMotivo.Name = "textBoxMotivo";
             this.textBoxMotivo.Size = new System.Drawing.Size(307, 26);
             this.textBoxMotivo.TabIndex = 24;
-            this.textBoxMotivo.TextChanged += new System.EventHandler(this.textBoxMotivo_TextChanged);
             // 
             // textBoxRaca
             // 
@@ -331,7 +264,6 @@
             this.textBoxRaca.Name = "textBoxRaca";
             this.textBoxRaca.Size = new System.Drawing.Size(93, 26);
             this.textBoxRaca.TabIndex = 19;
-            this.textBoxRaca.TextChanged += new System.EventHandler(this.textBoxRaca_TextChanged);
             // 
             // textBoxIdade
             // 
@@ -341,7 +273,6 @@
             this.textBoxIdade.Name = "textBoxIdade";
             this.textBoxIdade.Size = new System.Drawing.Size(31, 26);
             this.textBoxIdade.TabIndex = 18;
-            this.textBoxIdade.TextChanged += new System.EventHandler(this.textBoxIdade_TextChanged);
             // 
             // textBoxNome
             // 
@@ -351,7 +282,6 @@
             this.textBoxNome.Name = "textBoxNome";
             this.textBoxNome.Size = new System.Drawing.Size(121, 26);
             this.textBoxNome.TabIndex = 15;
-            this.textBoxNome.TextChanged += new System.EventHandler(this.textBoxNome_TextChanged);
             // 
             // label12
             // 
@@ -363,108 +293,131 @@
             this.label12.Size = new System.Drawing.Size(134, 18);
             this.label12.TabIndex = 14;
             this.label12.Text = "Motivo da Doação:";
-            this.label12.Click += new System.EventHandler(this.label12_Click);
             // 
-            // panel2
+            // label1
             // 
-            this.panel2.BackColor = System.Drawing.SystemColors.Highlight;
-            this.panel2.Controls.Add(this.buttonCasinha);
-            this.panel2.Location = new System.Drawing.Point(884, 28);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(46, 46);
-            this.panel2.TabIndex = 12;
-            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(36, 81);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(122, 18);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "Nome do Animal:";
             // 
-            // buttonCasinha
+            // label3
             // 
-            this.buttonCasinha.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.buttonCasinha.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buttonCasinha.BackgroundImage")));
-            this.buttonCasinha.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.buttonCasinha.Location = new System.Drawing.Point(0, -1);
-            this.buttonCasinha.Margin = new System.Windows.Forms.Padding(4);
-            this.buttonCasinha.Name = "buttonCasinha";
-            this.buttonCasinha.Size = new System.Drawing.Size(48, 47);
-            this.buttonCasinha.TabIndex = 13;
-            this.buttonCasinha.UseVisualStyleBackColor = false;
-            this.buttonCasinha.Click += new System.EventHandler(this.buttonCasinha_Click);
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(41, 124);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(46, 18);
+            this.label3.TabIndex = 4;
+            this.label3.Text = "Sexo:";
             // 
-            // panel3
+            // label4
             // 
-            this.panel3.BackColor = System.Drawing.SystemColors.Highlight;
-            this.panel3.Controls.Add(this.label7);
-            this.panel3.Location = new System.Drawing.Point(713, 100);
-            this.panel3.Margin = new System.Windows.Forms.Padding(4);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(248, 46);
-            this.panel3.TabIndex = 13;
-            this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(259, 124);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(47, 18);
+            this.label4.TabIndex = 5;
+            this.label4.Text = "Idade:";
             // 
-            // label7
+            // label9
             // 
-            this.label7.AutoSize = true;
-            this.label7.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label7.Location = new System.Drawing.Point(52, 14);
-            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(145, 16);
-            this.label7.TabIndex = 0;
-            this.label7.Text = "Cadastro para Doação";
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(248, 266);
+            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(73, 18);
+            this.label9.TabIndex = 10;
+            this.label9.Text = "Vacinado:";
             // 
-            // FormDoacao
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(41, 192);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(47, 18);
+            this.label5.TabIndex = 6;
+            this.label5.Text = "Raça:";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(41, 266);
+            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(73, 18);
+            this.label8.TabIndex = 9;
+            this.label8.Text = "Castrado:";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(257, 192);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(48, 18);
+            this.label6.TabIndex = 7;
+            this.label6.Text = "Porte:";
+            // 
+            // EditarAnimaisDoacao
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1217, 681);
+            this.ClientSize = new System.Drawing.Size(713, 595);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.buttonImg);
-            this.Controls.Add(this.pictureBoxImg);
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.Name = "FormDoacao";
-            this.Text = "Cadastro para Doação";
-            this.Load += new System.EventHandler(this.Form1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxImg)).EndInit();
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
-            this.panel2.ResumeLayout(false);
+            this.Name = "EditarAnimaisDoacao";
+            this.Text = "EditarAnimaisDoacao";
+            this.Load += new System.EventHandler(this.EditarAnimaisDoacao_Load);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.PictureBox pictureBoxImg;
-        private System.Windows.Forms.Button buttonImg;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Button buttonCasinha;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.TextBox textBoxNome;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.TextBox textBoxRaca;
-        private System.Windows.Forms.TextBox textBoxIdade;
+        private System.Windows.Forms.ComboBox comboBoxVacinado;
+        private System.Windows.Forms.ComboBox comboBoxCastrado;
+        private System.Windows.Forms.ComboBox comboBoxPorte;
+        private System.Windows.Forms.ComboBox comboBoxIdade;
+        private System.Windows.Forms.ComboBox comboBoxEspecie;
+        private System.Windows.Forms.ComboBox comboBoxSexo;
+        private System.Windows.Forms.Label labelEspecie;
         private System.Windows.Forms.Button buttonEnviar;
         private System.Windows.Forms.Button buttonCancelar;
         private System.Windows.Forms.TextBox textBoxMotivo;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Button buttonCasinha;
-        private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label labelEspecie;
-        private System.Windows.Forms.ComboBox comboBoxSexo;
-        private System.Windows.Forms.ComboBox comboBoxEspecie;
-        private System.Windows.Forms.ComboBox comboBoxIdade;
-        private System.Windows.Forms.ComboBox comboBoxPorte;
-        private System.Windows.Forms.ComboBox comboBoxVacinado;
-        private System.Windows.Forms.ComboBox comboBoxCastrado;
+        private System.Windows.Forms.TextBox textBoxRaca;
+        private System.Windows.Forms.TextBox textBoxIdade;
+        private System.Windows.Forms.TextBox textBoxNome;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label6;
     }
 }
-
