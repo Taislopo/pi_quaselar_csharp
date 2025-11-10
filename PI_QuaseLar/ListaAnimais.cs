@@ -26,9 +26,10 @@ namespace PI_QuaseLar
 
         private void button1_Click(object sender, EventArgs e)
         {
-            FormDoacao formDoacao = new FormDoacao();
+
+          FormDoacao formDoacao = new FormDoacao();
             formDoacao.ShowDialog();
-            
+
             CarregarAnimais();
         }
 
@@ -129,6 +130,11 @@ namespace PI_QuaseLar
 
 
             }
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

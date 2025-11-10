@@ -206,3 +206,4 @@ C:\Users\User01\Desktop\pi_quaselar_csharp\PI_QuaseLar\obj\Debug\PI_QuaseLar.csp
 C:\Users\User01\Desktop\pi_quaselar_csharp\PI_QuaseLar\obj\Debug\PI_Quase.6233DADF.Up2Date
 C:\Users\User01\Desktop\pi_quaselar_csharp\PI_QuaseLar\obj\Debug\PI_QuaseLar.exe
 C:\Users\User01\Desktop\pi_quaselar_csharp\PI_QuaseLar\obj\Debug\PI_QuaseLar.pdb
+C:\Users\User01\Desktop\pi_quaselar_csharp\PI_QuaseLar\obj\Debug\PI_QuaseLar.EditarListaProcurados.resources

@@ -28,11 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(EditarAnimaisDoacao));
             this.panel3 = new System.Windows.Forms.Panel();
             this.label7 = new System.Windows.Forms.Label();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.buttonCasinha = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.comboBoxVacinado = new System.Windows.Forms.ComboBox();
             this.comboBoxCastrado = new System.Windows.Forms.ComboBox();
@@ -56,7 +53,6 @@
             this.label8 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.panel3.SuspendLayout();
-            this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -80,28 +76,6 @@
             this.label7.Size = new System.Drawing.Size(135, 16);
             this.label7.TabIndex = 0;
             this.label7.Text = "Atualizar Informações";
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.SystemColors.Highlight;
-            this.panel2.Controls.Add(this.buttonCasinha);
-            this.panel2.Location = new System.Drawing.Point(586, 13);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(46, 46);
-            this.panel2.TabIndex = 17;
-            // 
-            // buttonCasinha
-            // 
-            this.buttonCasinha.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.buttonCasinha.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buttonCasinha.BackgroundImage")));
-            this.buttonCasinha.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.buttonCasinha.Location = new System.Drawing.Point(0, -1);
-            this.buttonCasinha.Margin = new System.Windows.Forms.Padding(4);
-            this.buttonCasinha.Name = "buttonCasinha";
-            this.buttonCasinha.Size = new System.Drawing.Size(48, 47);
-            this.buttonCasinha.TabIndex = 13;
-            this.buttonCasinha.UseVisualStyleBackColor = false;
             // 
             // panel1
             // 
@@ -246,6 +220,7 @@
             this.buttonCancelar.TabIndex = 26;
             this.buttonCancelar.Text = "Cancelar";
             this.buttonCancelar.UseVisualStyleBackColor = false;
+            this.buttonCancelar.Click += new System.EventHandler(this.buttonCancelar_Click);
             // 
             // textBoxMotivo
             // 
@@ -377,14 +352,13 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(713, 595);
             this.Controls.Add(this.panel3);
-            this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Name = "EditarAnimaisDoacao";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "EditarAnimaisDoacao";
             this.Load += new System.EventHandler(this.EditarAnimaisDoacao_Load);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
-            this.panel2.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
@@ -395,8 +369,6 @@
 
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Button buttonCasinha;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.ComboBox comboBoxVacinado;
         private System.Windows.Forms.ComboBox comboBoxCastrado;

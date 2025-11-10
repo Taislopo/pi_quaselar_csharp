@@ -28,9 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormDoacao));
-            this.pictureBoxImg = new System.Windows.Forms.PictureBox();
-            this.buttonImg = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -53,40 +50,11 @@
             this.textBoxIdade = new System.Windows.Forms.TextBox();
             this.textBoxNome = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.buttonCasinha = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label7 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxImg)).BeginInit();
             this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // pictureBoxImg
-            // 
-            this.pictureBoxImg.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxImg.Image")));
-            this.pictureBoxImg.Location = new System.Drawing.Point(211, 132);
-            this.pictureBoxImg.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.pictureBoxImg.Name = "pictureBoxImg";
-            this.pictureBoxImg.Size = new System.Drawing.Size(307, 318);
-            this.pictureBoxImg.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBoxImg.TabIndex = 0;
-            this.pictureBoxImg.TabStop = false;
-            this.pictureBoxImg.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
-            // buttonImg
-            // 
-            this.buttonImg.BackColor = System.Drawing.SystemColors.Highlight;
-            this.buttonImg.ForeColor = System.Drawing.SystemColors.Control;
-            this.buttonImg.Location = new System.Drawing.Point(211, 489);
-            this.buttonImg.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.buttonImg.Name = "buttonImg";
-            this.buttonImg.Size = new System.Drawing.Size(291, 53);
-            this.buttonImg.TabIndex = 1;
-            this.buttonImg.Text = "Inserir Imagem";
-            this.buttonImg.UseVisualStyleBackColor = false;
-            this.buttonImg.Click += new System.EventHandler(this.buttonImg_Click);
             // 
             // label1
             // 
@@ -190,7 +158,7 @@
             this.panel1.Controls.Add(this.label8);
             this.panel1.Controls.Add(this.label6);
             this.panel1.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.panel1.Location = new System.Drawing.Point(649, 100);
+            this.panel1.Location = new System.Drawing.Point(168, 47);
             this.panel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(396, 458);
@@ -365,35 +333,11 @@
             this.label12.Text = "Motivo da Doação:";
             this.label12.Click += new System.EventHandler(this.label12_Click);
             // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.SystemColors.Highlight;
-            this.panel2.Controls.Add(this.buttonCasinha);
-            this.panel2.Location = new System.Drawing.Point(884, 28);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(46, 46);
-            this.panel2.TabIndex = 12;
-            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
-            // 
-            // buttonCasinha
-            // 
-            this.buttonCasinha.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.buttonCasinha.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buttonCasinha.BackgroundImage")));
-            this.buttonCasinha.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.buttonCasinha.Location = new System.Drawing.Point(0, -1);
-            this.buttonCasinha.Margin = new System.Windows.Forms.Padding(4);
-            this.buttonCasinha.Name = "buttonCasinha";
-            this.buttonCasinha.Size = new System.Drawing.Size(48, 47);
-            this.buttonCasinha.TabIndex = 13;
-            this.buttonCasinha.UseVisualStyleBackColor = false;
-            this.buttonCasinha.Click += new System.EventHandler(this.buttonCasinha_Click);
-            // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.SystemColors.Highlight;
             this.panel3.Controls.Add(this.label7);
-            this.panel3.Location = new System.Drawing.Point(713, 100);
+            this.panel3.Location = new System.Drawing.Point(232, 47);
             this.panel3.Margin = new System.Windows.Forms.Padding(4);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(248, 46);
@@ -415,20 +359,16 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1217, 681);
+            this.ClientSize = new System.Drawing.Size(699, 552);
             this.Controls.Add(this.panel3);
-            this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.buttonImg);
-            this.Controls.Add(this.pictureBoxImg);
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "FormDoacao";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cadastro para Doação";
             this.Load += new System.EventHandler(this.Form1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxImg)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            this.panel2.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             this.ResumeLayout(false);
@@ -436,9 +376,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.PictureBox pictureBoxImg;
-        private System.Windows.Forms.Button buttonImg;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
@@ -454,8 +391,6 @@
         private System.Windows.Forms.Button buttonEnviar;
         private System.Windows.Forms.Button buttonCancelar;
         private System.Windows.Forms.TextBox textBoxMotivo;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Button buttonCasinha;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label labelEspecie;

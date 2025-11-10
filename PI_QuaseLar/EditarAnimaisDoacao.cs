@@ -121,6 +121,10 @@ namespace PI_QuaseLar
         
         }
 
+        private void buttonCancelar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
 

@@ -28,8 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(detalhes_adocao));
-            this.buttonCasinha = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.labelMotivo = new System.Windows.Forms.Label();
             this.labelCastrado = new System.Windows.Forms.Label();
@@ -49,24 +47,10 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.pictureBoxImg = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxImg)).BeginInit();
             this.SuspendLayout();
-            // 
-            // buttonCasinha
-            // 
-            this.buttonCasinha.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.buttonCasinha.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buttonCasinha.BackgroundImage")));
-            this.buttonCasinha.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.buttonCasinha.Location = new System.Drawing.Point(872, 25);
-            this.buttonCasinha.Margin = new System.Windows.Forms.Padding(4);
-            this.buttonCasinha.Name = "buttonCasinha";
-            this.buttonCasinha.Size = new System.Drawing.Size(48, 47);
-            this.buttonCasinha.TabIndex = 14;
-            this.buttonCasinha.UseVisualStyleBackColor = false;
-            this.buttonCasinha.Click += new System.EventHandler(this.buttonCasinha_Click);
             // 
             // panel2
             // 
@@ -89,10 +73,10 @@
             this.panel2.Controls.Add(this.label6);
             this.panel2.Controls.Add(this.label5);
             this.panel2.Controls.Add(this.label8);
-            this.panel2.Location = new System.Drawing.Point(504, 118);
+            this.panel2.Location = new System.Drawing.Point(44, 107);
             this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(426, 266);
+            this.panel2.Size = new System.Drawing.Size(526, 257);
             this.panel2.TabIndex = 10;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
@@ -115,7 +99,7 @@
             this.labelCastrado.BackColor = System.Drawing.SystemColors.ControlLight;
             this.labelCastrado.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelCastrado.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.labelCastrado.Location = new System.Drawing.Point(268, 111);
+            this.labelCastrado.Location = new System.Drawing.Point(274, 111);
             this.labelCastrado.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelCastrado.Name = "labelCastrado";
             this.labelCastrado.Size = new System.Drawing.Size(44, 18);
@@ -141,7 +125,7 @@
             this.labelPorte.BackColor = System.Drawing.SystemColors.ControlLight;
             this.labelPorte.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelPorte.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.labelPorte.Location = new System.Drawing.Point(349, 73);
+            this.labelPorte.Location = new System.Drawing.Point(408, 82);
             this.labelPorte.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelPorte.Name = "labelPorte";
             this.labelPorte.Size = new System.Drawing.Size(44, 18);
@@ -154,7 +138,7 @@
             this.labelSexo.BackColor = System.Drawing.SystemColors.ControlLight;
             this.labelSexo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelSexo.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.labelSexo.Location = new System.Drawing.Point(349, 28);
+            this.labelSexo.Location = new System.Drawing.Point(408, 28);
             this.labelSexo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelSexo.Name = "labelSexo";
             this.labelSexo.Size = new System.Drawing.Size(44, 18);
@@ -168,7 +152,7 @@
             this.labelVacinado.BackColor = System.Drawing.SystemColors.ControlLight;
             this.labelVacinado.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelVacinado.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.labelVacinado.Location = new System.Drawing.Point(230, 73);
+            this.labelVacinado.Location = new System.Drawing.Point(244, 73);
             this.labelVacinado.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelVacinado.Name = "labelVacinado";
             this.labelVacinado.Size = new System.Drawing.Size(44, 18);
@@ -194,7 +178,7 @@
             this.labelIdade.BackColor = System.Drawing.SystemColors.ControlLight;
             this.labelIdade.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelIdade.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.labelIdade.Location = new System.Drawing.Point(213, 28);
+            this.labelIdade.Location = new System.Drawing.Point(244, 28);
             this.labelIdade.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelIdade.Name = "labelIdade";
             this.labelIdade.Size = new System.Drawing.Size(44, 18);
@@ -231,7 +215,7 @@
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.label12.Location = new System.Drawing.Point(288, 73);
+            this.label12.Location = new System.Drawing.Point(346, 82);
             this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(54, 18);
@@ -291,7 +275,7 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.label6.Location = new System.Drawing.Point(152, 28);
+            this.label6.Location = new System.Drawing.Point(183, 28);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(53, 18);
@@ -303,7 +287,7 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.label5.Location = new System.Drawing.Point(290, 28);
+            this.label5.Location = new System.Drawing.Point(349, 28);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(51, 18);
@@ -315,23 +299,12 @@
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.label8.Location = new System.Drawing.Point(140, 73);
+            this.label8.Location = new System.Drawing.Point(154, 73);
             this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(82, 18);
             this.label8.TabIndex = 21;
             this.label8.Text = "Vacinado:";
-            // 
-            // pictureBoxImg
-            // 
-            this.pictureBoxImg.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.pictureBoxImg.Location = new System.Drawing.Point(107, 118);
-            this.pictureBoxImg.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBoxImg.Name = "pictureBoxImg";
-            this.pictureBoxImg.Size = new System.Drawing.Size(292, 273);
-            this.pictureBoxImg.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBoxImg.TabIndex = 8;
-            this.pictureBoxImg.TabStop = false;
             // 
             // label1
             // 
@@ -339,36 +312,45 @@
             this.label1.BackColor = System.Drawing.SystemColors.HotTrack;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label1.Location = new System.Drawing.Point(176, 63);
+            this.label1.Location = new System.Drawing.Point(251, 30);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(139, 39);
             this.label1.TabIndex = 7;
             this.label1.Text = "Adoção";
             // 
+            // button1
+            // 
+            this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.button1.Location = new System.Drawing.Point(495, 421);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 11;
+            this.button1.Text = "Fechar";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // detalhes_adocao
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1067, 554);
-            this.Controls.Add(this.buttonCasinha);
+            this.ClientSize = new System.Drawing.Size(647, 485);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.panel2);
-            this.Controls.Add(this.pictureBoxImg);
             this.Controls.Add(this.label1);
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "detalhes_adocao";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "detalhes_adocao";
             this.Load += new System.EventHandler(this.detalhes_adocao_Load);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxImg)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-        private System.Windows.Forms.Button buttonCasinha;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label7;
@@ -377,7 +359,6 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.PictureBox pictureBoxImg;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label12;
@@ -390,5 +371,6 @@
         private System.Windows.Forms.Label labelEspecie;
         private System.Windows.Forms.Label labelSexo;
         private System.Windows.Forms.Label labelIdade;
+        private System.Windows.Forms.Button button1;
     }
 }

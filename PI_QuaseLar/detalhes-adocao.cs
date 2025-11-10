@@ -64,60 +64,63 @@ namespace PI_QuaseLar
                         }
                     }
                 }
-
-                // === 2️⃣ Buscar a imagem separadamente ===
-                using (MySqlConnection conexaoImg = new MySqlConnection(conn))
-                {
-                    string queryImg = "SELECT localizacao FROM tb_img_animal WHERE id_adocao = @id LIMIT 1";
-                    MySqlCommand cmdImg = new MySqlCommand(queryImg, conexaoImg);
-                    cmdImg.Parameters.AddWithValue("@id", petId);
-
-                    conexaoImg.Open();
-
-                    object caminhoImg = cmdImg.ExecuteScalar();
-
-                    MessageBox.Show("📂 Valor retornado do banco:\n" + (caminhoImg != null ? caminhoImg.ToString() : "NULO"));
-
-                    if (caminhoImg != null)
-                    {
-                        string caminho = caminhoImg.ToString().Trim();
-
-                        // Se for relativo, converter para caminho completo
-                        if (caminho.StartsWith("./") || caminho.StartsWith("/uploads"))
-                        {
-                            string pastaUploads = Path.Combine(Application.StartupPath, "uploads");
-                            string nomeArquivo = Path.GetFileName(caminho);
-                            caminho = Path.Combine(pastaUploads, nomeArquivo);
-                        }
-
-                        MessageBox.Show("🧩 Tentando carregar imagem de:\n" + caminho);
-
-                        if (File.Exists(caminho))
-                        {
-                            pictureBoxImg.Image = Image.FromFile(caminho);
-                            pictureBoxImg.SizeMode = PictureBoxSizeMode.Zoom;
-                        }
-                        else
-                        {
-                            MessageBox.Show("❌ Imagem não encontrada no caminho:\n" + caminho);
-                            pictureBoxImg.Image = null;
-                        }
-                    }
-                    else
-                    {
-                        MessageBox.Show("🚫 Nenhum caminho de imagem retornado do banco.");
-                        pictureBoxImg.Image = null;
-                    }
-                }
             }
+
             catch (Exception ex)
             {
                 MessageBox.Show("💥 Erro: " + ex.Message);
             }
         }
 
-        
-        
+
+        //    // === 2️⃣ Buscar a imagem separadamente ===
+        //    using (MySqlConnection conexaoImg = new MySqlConnection(conn))
+        //    {
+        //        string queryImg = "SELECT localizacao FROM tb_img_animal WHERE id_adocao = @id LIMIT 1";
+        //        MySqlCommand cmdImg = new MySqlCommand(queryImg, conexaoImg);
+        //        cmdImg.Parameters.AddWithValue("@id", petId);
+
+        //        conexaoImg.Open();
+
+        //        object caminhoImg = cmdImg.ExecuteScalar();
+
+        //        MessageBox.Show("📂 Valor retornado do banco:\n" + (caminhoImg != null ? caminhoImg.ToString() : "NULO"));
+
+        //        if (caminhoImg != null)
+        //        {
+        //            string caminho = caminhoImg.ToString().Trim();
+
+        //            // Se for relativo, converter para caminho completo
+        //            if (caminho.StartsWith("./") || caminho.StartsWith("/uploads"))
+        //            {
+        //                string pastaUploads = Path.Combine(Application.StartupPath, "uploads");
+        //                string nomeArquivo = Path.GetFileName(caminho);
+        //                caminho = Path.Combine(pastaUploads, nomeArquivo);
+        //            }
+
+        //            MessageBox.Show("🧩 Tentando carregar imagem de:\n" + caminho);
+
+        //            if (File.Exists(caminho))
+        //            {
+        //                pictureBoxImg.Image = Image.FromFile(caminho);
+        //                pictureBoxImg.SizeMode = PictureBoxSizeMode.Zoom;
+        //            }
+        //            else
+        //            {
+        //                MessageBox.Show("❌ Imagem não encontrada no caminho:\n" + caminho);
+        //                pictureBoxImg.Image = null;
+        //            }
+        //        }
+        //        else
+        //        {
+        //            MessageBox.Show("🚫 Nenhum caminho de imagem retornado do banco.");
+        //            pictureBoxImg.Image = null;
+        //        }
+        //    }
+        //}
+
+
+
 
         private void buttonCasinha_Click(object sender, EventArgs e)
         {
@@ -133,6 +136,11 @@ namespace PI_QuaseLar
         private void labelSexo_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

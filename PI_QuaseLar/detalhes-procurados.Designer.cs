@@ -28,11 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(detalhes_procurados));
-            this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.labelUltima = new System.Windows.Forms.Label();
+            this.labelRaca = new System.Windows.Forms.Label();
+            this.labelEspecie = new System.Windows.Forms.Label();
+            this.labelPorte = new System.Windows.Forms.Label();
+            this.labelSexo = new System.Windows.Forms.Label();
+            this.labelIdade = new System.Windows.Forms.Label();
+            this.labelNome = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -40,52 +43,21 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.buttonCasinha = new System.Windows.Forms.Button();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.label1 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.panel2.SuspendLayout();
-            this.panel4.SuspendLayout();
-            this.panel5.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label1.Location = new System.Drawing.Point(108, 60);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(193, 39);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Procura-se";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Location = new System.Drawing.Point(61, 102);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(292, 273);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
-            // 
-            // panel1
-            // 
-            this.panel1.Location = new System.Drawing.Point(61, 372);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(292, 92);
-            this.panel1.TabIndex = 2;
             // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.panel2.Controls.Add(this.labelUltima);
+            this.panel2.Controls.Add(this.labelRaca);
+            this.panel2.Controls.Add(this.labelEspecie);
+            this.panel2.Controls.Add(this.labelPorte);
+            this.panel2.Controls.Add(this.labelSexo);
+            this.panel2.Controls.Add(this.labelIdade);
+            this.panel2.Controls.Add(this.labelNome);
             this.panel2.Controls.Add(this.label9);
             this.panel2.Controls.Add(this.label7);
             this.panel2.Controls.Add(this.label4);
@@ -93,12 +65,103 @@
             this.panel2.Controls.Add(this.label6);
             this.panel2.Controls.Add(this.label5);
             this.panel2.Controls.Add(this.label8);
-            this.panel2.Location = new System.Drawing.Point(462, 129);
+            this.panel2.Location = new System.Drawing.Point(42, 111);
             this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(388, 224);
+            this.panel2.Size = new System.Drawing.Size(479, 227);
             this.panel2.TabIndex = 3;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
+            // 
+            // labelUltima
+            // 
+            this.labelUltima.AutoSize = true;
+            this.labelUltima.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.labelUltima.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelUltima.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.labelUltima.Location = new System.Drawing.Point(43, 169);
+            this.labelUltima.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelUltima.Name = "labelUltima";
+            this.labelUltima.Size = new System.Drawing.Size(44, 18);
+            this.labelUltima.TabIndex = 31;
+            this.labelUltima.Text = "texto ";
+            // 
+            // labelRaca
+            // 
+            this.labelRaca.AutoSize = true;
+            this.labelRaca.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.labelRaca.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelRaca.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.labelRaca.Location = new System.Drawing.Point(80, 111);
+            this.labelRaca.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelRaca.Name = "labelRaca";
+            this.labelRaca.Size = new System.Drawing.Size(44, 18);
+            this.labelRaca.TabIndex = 30;
+            this.labelRaca.Text = "texto ";
+            // 
+            // labelEspecie
+            // 
+            this.labelEspecie.AutoSize = true;
+            this.labelEspecie.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.labelEspecie.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelEspecie.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.labelEspecie.Location = new System.Drawing.Point(95, 71);
+            this.labelEspecie.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelEspecie.Name = "labelEspecie";
+            this.labelEspecie.Size = new System.Drawing.Size(44, 18);
+            this.labelEspecie.TabIndex = 29;
+            this.labelEspecie.Text = "texto ";
+            // 
+            // labelPorte
+            // 
+            this.labelPorte.AutoSize = true;
+            this.labelPorte.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.labelPorte.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelPorte.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.labelPorte.Location = new System.Drawing.Point(368, 86);
+            this.labelPorte.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelPorte.Name = "labelPorte";
+            this.labelPorte.Size = new System.Drawing.Size(44, 18);
+            this.labelPorte.TabIndex = 28;
+            this.labelPorte.Text = "texto ";
+            // 
+            // labelSexo
+            // 
+            this.labelSexo.AutoSize = true;
+            this.labelSexo.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.labelSexo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelSexo.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.labelSexo.Location = new System.Drawing.Point(389, 30);
+            this.labelSexo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelSexo.Name = "labelSexo";
+            this.labelSexo.Size = new System.Drawing.Size(44, 18);
+            this.labelSexo.TabIndex = 27;
+            this.labelSexo.Text = "texto ";
+            // 
+            // labelIdade
+            // 
+            this.labelIdade.AutoSize = true;
+            this.labelIdade.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.labelIdade.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelIdade.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.labelIdade.Location = new System.Drawing.Point(236, 30);
+            this.labelIdade.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelIdade.Name = "labelIdade";
+            this.labelIdade.Size = new System.Drawing.Size(44, 18);
+            this.labelIdade.TabIndex = 26;
+            this.labelIdade.Text = "texto ";
+            // 
+            // labelNome
+            // 
+            this.labelNome.AutoSize = true;
+            this.labelNome.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.labelNome.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelNome.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.labelNome.Location = new System.Drawing.Point(82, 28);
+            this.labelNome.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelNome.Name = "labelNome";
+            this.labelNome.Size = new System.Drawing.Size(44, 18);
+            this.labelNome.TabIndex = 25;
+            this.labelNome.Text = "texto ";
             // 
             // label9
             // 
@@ -151,7 +214,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.label6.Location = new System.Drawing.Point(152, 28);
+            this.label6.Location = new System.Drawing.Point(183, 32);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(45, 16);
@@ -162,7 +225,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.label5.Location = new System.Drawing.Point(267, 28);
+            this.label5.Location = new System.Drawing.Point(340, 30);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(41, 16);
@@ -173,118 +236,59 @@
             // 
             this.label8.AutoSize = true;
             this.label8.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.label8.Location = new System.Drawing.Point(243, 73);
+            this.label8.Location = new System.Drawing.Point(318, 88);
             this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(42, 16);
             this.label8.TabIndex = 21;
             this.label8.Text = "Porte:";
             // 
-            // panel4
+            // label1
             // 
-            this.panel4.BackColor = System.Drawing.SystemColors.Highlight;
-            this.panel4.Controls.Add(this.buttonCasinha);
-            this.panel4.Location = new System.Drawing.Point(663, 28);
-            this.panel4.Margin = new System.Windows.Forms.Padding(4);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(55, 36);
-            this.panel4.TabIndex = 5;
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label1.Location = new System.Drawing.Point(191, 46);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(193, 39);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Procura-se";
             // 
-            // buttonCasinha
+            // button1
             // 
-            this.buttonCasinha.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.buttonCasinha.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buttonCasinha.BackgroundImage")));
-            this.buttonCasinha.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.buttonCasinha.Location = new System.Drawing.Point(4, -6);
-            this.buttonCasinha.Margin = new System.Windows.Forms.Padding(4);
-            this.buttonCasinha.Name = "buttonCasinha";
-            this.buttonCasinha.Size = new System.Drawing.Size(48, 47);
-            this.buttonCasinha.TabIndex = 14;
-            this.buttonCasinha.UseVisualStyleBackColor = false;
-            this.buttonCasinha.Click += new System.EventHandler(this.buttonCasinha_Click);
-            // 
-            // panel5
-            // 
-            this.panel5.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.panel5.Controls.Add(this.label11);
-            this.panel5.Controls.Add(this.label13);
-            this.panel5.Controls.Add(this.label10);
-            this.panel5.Location = new System.Drawing.Point(61, 370);
-            this.panel5.Margin = new System.Windows.Forms.Padding(4);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(292, 94);
-            this.panel5.TabIndex = 6;
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.label11.Location = new System.Drawing.Point(120, 69);
-            this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(90, 17);
-            this.label11.TabIndex = 11;
-            this.label11.Text = "2025/11/03";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.label13.Location = new System.Drawing.Point(31, 69);
-            this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(89, 17);
-            this.label13.TabIndex = 10;
-            this.label13.Text = "Atualizado:";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label10.Location = new System.Drawing.Point(108, 28);
-            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(51, 24);
-            this.label10.TabIndex = 7;
-            this.label10.Text = "LEO";
+            this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.button1.Location = new System.Drawing.Point(413, 380);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 4;
+            this.button1.Text = "Fechar";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // detalhes_procurados
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(949, 564);
-            this.Controls.Add(this.panel5);
-            this.Controls.Add(this.panel4);
+            this.ClientSize = new System.Drawing.Size(611, 438);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.panel2);
-            this.Controls.Add(this.panel1);
-            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label1);
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "detalhes_procurados";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "detalhes_procurados";
             this.Load += new System.EventHandler(this.detalhes_procurados_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            this.panel4.ResumeLayout(false);
-            this.panel5.ResumeLayout(false);
-            this.panel5.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Button buttonCasinha;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
@@ -292,9 +296,14 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label labelUltima;
+        private System.Windows.Forms.Label labelRaca;
+        private System.Windows.Forms.Label labelEspecie;
+        private System.Windows.Forms.Label labelPorte;
+        private System.Windows.Forms.Label labelSexo;
+        private System.Windows.Forms.Label labelIdade;
+        private System.Windows.Forms.Label labelNome;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button button1;
     }
 }

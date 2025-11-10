@@ -122,6 +122,12 @@
     <Compile Include="EditarAnimaisDoacao.Designer.cs">
       <DependentUpon>EditarAnimaisDoacao.cs</DependentUpon>
     </Compile>
+    <Compile Include="EditarListaProcurados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditarListaProcurados.Designer.cs">
+      <DependentUpon>EditarListaProcurados.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -171,6 +177,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="EditarAnimaisDoacao.resx">
       <DependentUpon>EditarAnimaisDoacao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditarListaProcurados.resx">
+      <DependentUpon>EditarListaProcurados.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form.resx">
       <DependentUpon>Form.cs</DependentUpon>

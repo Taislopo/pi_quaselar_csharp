@@ -89,11 +89,11 @@ namespace PI_QuaseLar
             }
 
            
-            if (pictureBoxImg.Image == null)
-            {
-                MessageBox.Show("Escolha uma imagem primeiro.");
-                return;
-            }
+            //if (pictureBoxImg.Image == null)
+            //{
+            //    MessageBox.Show("Escolha uma imagem primeiro.");
+            //    return;
+            //}
 
             string pasta = Path.Combine(Application.StartupPath, "uploads");
             Directory.CreateDirectory(pasta);
@@ -102,7 +102,7 @@ namespace PI_QuaseLar
             string caminho = Path.Combine(pasta, nomeArquivo);
 
             
-            pictureBoxImg.Image.Save(caminho, System.Drawing.Imaging.ImageFormat.Png);
+            //pictureBoxImg.Image.Save(caminho, System.Drawing.Imaging.ImageFormat.Png);
 
             using (var conn = new MySqlConnection(connStr))
             using (var cmd = new MySqlCommand("INSERT INTO tb_img_procurados (nome_arquivo, localizacao) VALUES (@nome_arquivo, @localizacao)", conn))
@@ -126,7 +126,7 @@ namespace PI_QuaseLar
             textBoxRaca.Clear();
             textBoxIdade.Clear();
             textBoxUltima.Clear();
-            pictureBoxImg.Image = null;
+            //pictureBoxImg.Image = null;
             comboBoxIdade.SelectedIndex = -1;
             comboBoxPorte.SelectedIndex = -1;
             comboBoxSexo.SelectedIndex = -1;
@@ -167,16 +167,16 @@ namespace PI_QuaseLar
         private void buttonImg_Click(object sender, EventArgs e)
         {
 
-            OpenFileDialog abrirArquivo = new OpenFileDialog();
-            abrirArquivo.Filter = "Arquivos de imagem|*.jpg;*.jpeg;*.png;*.bmp";
+            //OpenFileDialog abrirArquivo = new OpenFileDialog();
+            //abrirArquivo.Filter = "Arquivos de imagem|*.jpg;*.jpeg;*.png;*.bmp";
 
-            if (abrirArquivo.ShowDialog() == DialogResult.OK)
-            {
+            //if (abrirArquivo.ShowDialog() == DialogResult.OK)
+            //{
 
-                pictureBoxImg.Image = Image.FromFile(abrirArquivo.FileName);
+            //    pictureBoxImg.Image = Image.FromFile(abrirArquivo.FileName);
 
-                pictureBoxImg.SizeMode = PictureBoxSizeMode.Zoom;
-            }
+            //    pictureBoxImg.SizeMode = PictureBoxSizeMode.Zoom;
+            //}
         }
 
         private void buttonCancelar_Click(object sender, EventArgs e)
@@ -187,6 +187,11 @@ namespace PI_QuaseLar
         private void pictureBoxImg_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
