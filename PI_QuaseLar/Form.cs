@@ -41,8 +41,7 @@ namespace PI_QuaseLar
 
         private void button5_Click(object sender, EventArgs e)
         {
-            Tela_perfil tela_Perfil = new Tela_perfil();
-            tela_Perfil.Show();
+
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
@@ -60,23 +59,23 @@ namespace PI_QuaseLar
 
         }
 
-        private void buttonImg_Click(object sender, EventArgs e)
-        {
-            string caminhoImagem = "";
+        //private void buttonImg_Click(object sender, EventArgs e)
+        //{
+        //    string caminhoImagem = "";
 
-            OpenFileDialog abrirArquivo = new OpenFileDialog();
-            abrirArquivo.Filter = "Arquivos de imagem|*.jpg;*.jpeg;*.png;*.bmp";
+        //    OpenFileDialog abrirArquivo = new OpenFileDialog();
+        //    abrirArquivo.Filter = "Arquivos de imagem|*.jpg;*.jpeg;*.png;*.bmp";
 
-            if (abrirArquivo.ShowDialog() == DialogResult.OK)
-            {
+        //    if (abrirArquivo.ShowDialog() == DialogResult.OK)
+        //    {
 
-                pictureBoxImg.Image = Image.FromFile(abrirArquivo.FileName);
+        //        pictureBoxImg.Image = Image.FromFile(abrirArquivo.FileName);
 
-                pictureBoxImg.SizeMode = PictureBoxSizeMode.Zoom;
+        //        pictureBoxImg.SizeMode = PictureBoxSizeMode.Zoom;
 
-                caminhoImagem = abrirArquivo.FileName;
-            }
-        }
+        //        caminhoImagem = abrirArquivo.FileName;
+        //    }
+        //}
 
         private void buttonEnviar_Click(object sender, EventArgs e)
 
@@ -101,6 +100,7 @@ namespace PI_QuaseLar
 
 
             string conn = "server=localhost;user=root;password=;database=db_quaselar_oficial";
+            long idPet = 0;
 
             using (MySqlConnection conexao = new MySqlConnection(conn))
                 try
@@ -119,8 +119,10 @@ namespace PI_QuaseLar
                     cmd.Parameters.AddWithValue("@especie", especie);
                     cmd.Parameters.AddWithValue("@vacinado", vacinado);
                     cmd.ExecuteNonQuery();
+                    idPet = cmd.LastInsertedId;
 
                     MessageBox.Show("Doação cadastrada com sucesso!");
+                    this.Close();
 
 
 
@@ -134,61 +136,62 @@ namespace PI_QuaseLar
 
 
 
-            if (pictureBoxImg.Image == null)
-            {
-                MessageBox.Show("Escolha uma imagem primeiro.");
-                return;
-            }
+            //if (pictureBoxImg.Image == null)
+            //{
+            //    MessageBox.Show("Escolha uma imagem primeiro.");
+            //    return;
+            //}
 
-            string pasta = Path.Combine(Application.StartupPath, "uploads");
-            Directory.CreateDirectory(pasta);
+            //string pasta = Path.Combine(Application.StartupPath, "uploads");
+            //Directory.CreateDirectory(pasta);
 
-            string nomeArquivo = $"img_{DateTime.Now.Ticks}.png";
-            string caminho = Path.Combine(pasta, nomeArquivo);
-
-
-            pictureBoxImg.Image.Save(caminho, System.Drawing.Imaging.ImageFormat.Png);
-
-            using (var conexaoImg = new MySqlConnection(conn))
-            using (var cmd = new MySqlCommand("INSERT INTO tb_img_animal (nome_arquivo, localizacao) VALUES (@nome_arquivo, @localizacao)", conexaoImg))
-            {
-                cmd.Parameters.AddWithValue("@nome_arquivo", nomeArquivo);
-                cmd.Parameters.AddWithValue("@localizacao", caminho);
-
-                try
-                {
-                    conexaoImg.Open();
-                    cmd.ExecuteNonQuery();
-          
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show("Erro ao salvar imagem: " + ex.Message);
-                }
+            //string nomeArquivo = $"img_{DateTime.Now.Ticks}.png";
+            //string caminho = Path.Combine(pasta, nomeArquivo);
 
 
+            //pictureBoxImg.Image.Save(caminho, System.Drawing.Imaging.ImageFormat.Png);
 
-                textBoxNome.Clear();
-                textBoxRaca.Clear();
-                textBoxIdade.Clear();
-                textBoxMotivo.Clear();
-                pictureBoxImg.Image = null;
-                comboBoxIdade.SelectedIndex = -1;
-                comboBoxPorte.SelectedIndex = -1;
-                comboBoxSexo.SelectedIndex = -1;
-                comboBoxCastrado.SelectedIndex = -1;
-                comboBoxVacinado.SelectedIndex = -1;
-                comboBoxEspecie.SelectedIndex = -1;
+            //using (var conexaoImg = new MySqlConnection(conn))
+            //using (var cmd = new MySqlCommand("INSERT INTO tb_img_animal (id_adocao,nome_arquivo, localizacao) VALUES (@id_adocao,@nome_arquivo, @localizacao)", conexaoImg))
+            //{
+            //    cmd.Parameters.AddWithValue("@id_adocao", idPet);
+            //    cmd.Parameters.AddWithValue("@nome_arquivo", nomeArquivo);
+            //    cmd.Parameters.AddWithValue("@localizacao", caminho);
+
+            //    try
+            //    {
+            //        conexaoImg.Open();
+            //        cmd.ExecuteNonQuery();
+
+            //    }
+            //    catch (Exception ex)
+            //    {
+            //        MessageBox.Show("Erro ao salvar imagem: " + ex.Message);
+            //    }
 
 
+            textBoxNome.Clear();
+            textBoxRaca.Clear();
+            textBoxIdade.Clear();
+            textBoxMotivo.Clear();
+            //pictureBoxImg.Image = null;
+            comboBoxIdade.SelectedIndex = -1;
+            comboBoxPorte.SelectedIndex = -1;
+            comboBoxSexo.SelectedIndex = -1;
+            comboBoxCastrado.SelectedIndex = -1;
+            comboBoxVacinado.SelectedIndex = -1;
+            comboBoxEspecie.SelectedIndex = -1;
 
 
 
 
 
 
-            }
+
+
+
         }
+    
         
 
         private void label9_Click(object sender, EventArgs e)

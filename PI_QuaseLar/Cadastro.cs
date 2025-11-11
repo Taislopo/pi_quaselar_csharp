@@ -46,7 +46,7 @@ namespace PI_QuaseLar
             string telefone = maskedTextBoxTelefone.Text;
             string endereco = textBoxEndereco.Text;
             string CEP = maskedTextBoxCep.Text;
-            int CPF = int.Parse(textBoxCPF.Text);
+            string CPF = maskedTextBoxcpf.Text;
 
 
             if (nome == "" || email == "" || senha == "" || telefone == "" || endereco == "" || CEP == "" )
@@ -106,7 +106,7 @@ namespace PI_QuaseLar
                     maskedTextBoxTelefone.Clear();
                     textBoxEndereco.Clear();
                     maskedTextBoxCep.Clear();
-                    textBoxCPF.Clear();
+                    maskedTextBoxcpf.Clear();
                     textBoxConfirmar.Clear();
                     
                     conexao.Close();
