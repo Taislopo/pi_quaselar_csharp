@@ -52,8 +52,12 @@
             this.label12 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label7 = new System.Windows.Forms.Label();
+            this.pictureBoxImg = new System.Windows.Forms.PictureBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxImg)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -158,7 +162,7 @@
             this.panel1.Controls.Add(this.label8);
             this.panel1.Controls.Add(this.label6);
             this.panel1.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.panel1.Location = new System.Drawing.Point(168, 47);
+            this.panel1.Location = new System.Drawing.Point(555, 63);
             this.panel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(396, 458);
@@ -337,7 +341,7 @@
             // 
             this.panel3.BackColor = System.Drawing.SystemColors.Highlight;
             this.panel3.Controls.Add(this.label7);
-            this.panel3.Location = new System.Drawing.Point(232, 47);
+            this.panel3.Location = new System.Drawing.Point(619, 63);
             this.panel3.Margin = new System.Windows.Forms.Padding(4);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(248, 46);
@@ -355,11 +359,48 @@
             this.label7.TabIndex = 0;
             this.label7.Text = "Cadastro para Doação";
             // 
+            // pictureBoxImg
+            // 
+            this.pictureBoxImg.Location = new System.Drawing.Point(146, 144);
+            this.pictureBoxImg.Name = "pictureBoxImg";
+            this.pictureBoxImg.Size = new System.Drawing.Size(265, 253);
+            this.pictureBoxImg.TabIndex = 14;
+            this.pictureBoxImg.TabStop = false;
+            this.pictureBoxImg.Click += new System.EventHandler(this.pictureBox1_Click_1);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label2.Location = new System.Drawing.Point(210, 77);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(139, 39);
+            this.label2.TabIndex = 15;
+            this.label2.Text = "Adoção";
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.AliceBlue;
+            this.button1.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.button1.Location = new System.Drawing.Point(195, 406);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(154, 27);
+            this.button1.TabIndex = 40;
+            this.button1.Text = "Inserir imagem";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // FormDoacao
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(699, 552);
+            this.ClientSize = new System.Drawing.Size(1053, 615);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.pictureBoxImg);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel1);
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -371,7 +412,9 @@
             this.panel1.PerformLayout();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxImg)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -400,6 +443,9 @@
         private System.Windows.Forms.ComboBox comboBoxPorte;
         private System.Windows.Forms.ComboBox comboBoxVacinado;
         private System.Windows.Forms.ComboBox comboBoxCastrado;
+        private System.Windows.Forms.PictureBox pictureBoxImg;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button button1;
     }
 }
 
